@@ -1,0 +1,62 @@
+# OpenStack_2k.log | level=conservative
+# 2000 lines -> 59 groups (ratio 0.029)
+
+720x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.osapi_compute.wsgi.server [req-<UUID> <HASH> <HASH> - - -] <IP> "GET <PATH> HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+22x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.manager [req-<UUID> - - - - -] [instance: <UUID>] VM Started (Lifecycle Event)
+22x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.manager [req-<UUID> - - - - -] [instance: <UUID>] VM Paused (Lifecycle Event)
+42x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.manager [req-<UUID> - - - - -] [instance: <UUID>] During sync_power_state the instance has a pending task (spawning). Skip.
+82x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.virt.libvirt.imagecache [req-<UUID> - - - - -] image <UUID> at (<PATH>): checking
+82x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.virt.libvirt.imagecache [req-<UUID> - - - - -] image <UUID> at (<PATH>): in use: on this node <NUM> local, <NUM> on other nodes sharing this instance storage
+82x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.virt.libvirt.imagecache [req-<UUID> - - - - -] Active base files: <PATH>
+22x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.api.openstack.compute.server_external_events [req-<UUID> <HASH> <HASH> - - -] Creating event network-vif-plugged:<UUID> for instance <UUID>
+64x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.osapi_compute.wsgi.server [req-<UUID> <HASH> <HASH> - - -] <IP> "POST <PATH> HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+44x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.manager [req-<UUID> - - - - -] [instance: <UUID>] VM Resumed (Lifecycle Event)
+22x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.virt.libvirt.driver [-] [instance: <UUID>] Instance spawned successfully.
+22x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.manager [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] Took <NUM> seconds to spawn the instance on the hypervisor.
+22x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.manager [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] Took <NUM> seconds to build instance.
+15x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.resource_tracker [req-<UUID> - - - - -] Auditing locally available compute resources for node cp-<NUM>.slowvm<NUM>.tcloud-pg<NUM>.utah.cloudlab.us
+15x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.resource_tracker [req-<UUID> - - - - -] Total usable vcpus: <NUM>, total allocated vcpus: <NUM>
+15x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.resource_tracker [req-<UUID> - - - - -] Final resource view: name=cp-<NUM>.slowvm<NUM>.tcloud-pg<NUM>.utah.cloudlab.us phys_ram=<SIZE> used_ram=<SIZE> phys_disk=<SIZE> used_disk=<SIZE> total_vcpus=<NUM> used_vcpus=<NUM> pci_stats=[]
+15x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.resource_tracker [req-<UUID> - - - - -] Compute_service record updated for cp-<NUM>.slowvm<NUM>.tcloud-pg<NUM>.utah.cloudlab.us:cp-<NUM>.slowvm<NUM>.tcloud-pg<NUM>.utah.cloudlab.us
+42x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.metadata.wsgi.server [req-<UUID> - - - - -] <IP>,<IP> "GET /openstack/<DATE>/meta_data.json HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+12x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.metadata.wsgi.server [-] <IP>,<IP> "GET /openstack/<DATE> HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+31x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.metadata.wsgi.server [req-<UUID> - - - - -] <IP>,<IP> "GET /openstack/<DATE>/vendor_data.json HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+22x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.osapi_compute.wsgi.server [req-<UUID> <HASH> <HASH> - - -] <IP> "DELETE <PATH> HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+12x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.metadata.wsgi.server [-] <IP>,<IP> "GET /openstack/<DATE>/user_data HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+22x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.manager [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] Terminating instance
+22x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.virt.libvirt.driver [-] [instance: <UUID>] Instance destroyed successfully.
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.virt.libvirt.driver [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] Deleting instance files <PATH>
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.virt.libvirt.driver [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] Deletion of <PATH> complete
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.manager [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] Took <NUM> seconds to destroy the instance on the hypervisor.
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.manager [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] Took <NUM> seconds to deallocate network for instance.
+30x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> WARNING nova.virt.libvirt.imagecache [req-<UUID> - - - - -] Unknown base file: <PATH>
+30x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.virt.libvirt.imagecache [req-<UUID> - - - - -] Removable base files: <PATH>
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.virt.libvirt.imagecache [req-<UUID> - - - - -] Removing base or swap file: <PATH>
+21x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.api.openstack.wsgi [req-<UUID> <HASH> <HASH> - - -] HTTP exception thrown: No instances found for any event
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.claims [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] Attempting claim: memory <SIZE>, disk <SIZE>, vcpus <NUM> CPU
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.claims [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] Total memory: <SIZE>, used: <SIZE>
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.claims [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] memory limit: <SIZE>, free: <SIZE>
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.claims [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] Total disk: <SIZE>, used: <SIZE>
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.claims [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] disk limit not specified, defaulting to unlimited
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.claims [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] Total vcpu: <NUM> VCPU, used: <NUM> VCPU
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.claims [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] vcpu limit not specified, defaulting to unlimited
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.claims [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] Claim successful
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.virt.libvirt.driver [req-<UUID> <HASH> <HASH> - - -] [instance: <UUID>] Creating image
+21x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.manager [-] [instance: <UUID>] VM Stopped (Lifecycle Event)
+2x nova-scheduler.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.scheduler.host_manager [req-<UUID> - - - - -] Successfully synced instances from host 'cp-<NUM>.slowvm<NUM>.tcloud-pg<NUM>.utah.cloudlab.us'.
+13x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.metadata.wsgi.server [-] <IP>,<IP> "GET /openstack/<DATE>/vendor_data.json HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+8x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.metadata.wsgi.server [req-<UUID> - - - - -] <IP>,<IP> "GET /openstack/<DATE>/user_data HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+15x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.metadata.wsgi.server [-] <IP>,<IP> "GET /openstack/<DATE>/meta_data.json HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+13x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.metadata.wsgi.server [-] <IP>,<IP> "GET <PATH>/ HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+24x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.metadata.wsgi.server [-] <IP>,<IP> "GET <PATH> HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+16x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.metadata.wsgi.server [req-<UUID> - - - - -] <IP>,<IP> "GET <PATH>/ HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.manager [req-<UUID> - - - - -] Running instance usage audit for host cp-<NUM>.slowvm<NUM>.tcloud-pg<NUM>.utah.cloudlab.us from <TS> to <TS>. <NUM> instances.
+10x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.metadata.wsgi.server [req-<UUID> - - - - -] <IP>,<IP> "GET /openstack/<DATE> HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+9x nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.virt.libvirt.imagecache [req-<UUID> - - - - -] Base or swap file too young to remove: <PATH>
+12x nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.metadata.wsgi.server [req-<UUID> - - - - -] <IP>,<IP> "GET <PATH> HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.osapi_compute.wsgi.server [req-<UUID> <HASH> <HASH> - - -] <IP> "GET <PATH>?all_tenants=True&changes-since=<DATE>T<NUM>%<NUM>A<NUM>%<NUM>A<NUM>%<NUM>B<NUM>%<NUM>A<NUM> HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+5x nova-scheduler.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.scheduler.host_manager [req-<UUID> - - - - -] The instance sync for host 'cp-<NUM>.slowvm<NUM>.tcloud-pg<NUM>.utah.cloudlab.us' did not match. Re-created its InstanceList.
+nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.osapi_compute.wsgi.server [req-<UUID> <HASH> <HASH> - - -] <IP> "GET <PATH>?all_tenants=True&changes-since=<DATE>T<NUM>%<NUM>A<NUM>%<NUM>A<NUM>%<NUM>B<NUM>%<NUM>A<NUM>&host=cp-<NUM>.slowvm<NUM>.tcloud-pg<NUM>.utah.cloudlab.us HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>
+nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> WARNING nova.compute.manager [req-<UUID> - - - - -] While synchronizing instance power states, found <NUM> instances in the database and <NUM> instances on the hypervisor.
+nova-compute.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.compute.manager [-] [instance: <UUID>] During sync_power_state the instance has a pending task (spawning). Skip.
+nova-api.log.<NUM>.<DATE>_<TIME> <TS> <NUM> INFO nova.osapi_compute.wsgi.server [req-<UUID> <HASH> <HASH> - - -] <IP> "GET <PATH> HTTP/<NUM>" status: <NUM> len: <NUM> time: <NUM>

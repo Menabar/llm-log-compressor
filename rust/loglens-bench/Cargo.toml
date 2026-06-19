@@ -1,0 +1,12 @@
+[package]
+name = "loglens-bench"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "loglens-scan"
+path = "src/main.rs"
+
+[dependencies]
+loglens-core = { path = "../loglens-core" }
+rayon = "1"

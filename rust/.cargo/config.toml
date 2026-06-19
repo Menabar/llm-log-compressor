@@ -1,0 +1,6 @@
+# Build for the host CPU so the byte-class predicates and buffer copies in the
+# scanner can use NEON/AVX. This makes the binaries non-portable (build-host CPU
+# only) — fine for a benchmark/dev tool; a distributed build would pin a baseline
+# target (e.g. x86-64-v2 / apple-m1) instead.
+[build]
+rustflags = ["-C", "target-cpu=native"]

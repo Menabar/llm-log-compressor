@@ -1,0 +1,414 @@
+# BGL_2k.log | level=conservative
+# 2000 lines -> 411 groups (ratio 0.205)
+
+33x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO instruction cache parity error corrected
+10x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> double-hummer alignment exceptions
+71x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> double-hummer alignment exceptions
+58x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO CE sym <NUM>, at <HEX>, mask <HEX>
+3x APPREAD <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: failed to read message prefix on control stream (CioStream socket to <IP>
+454x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO generating core.<NUM>
+50x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO generating core.<NUM>
+50x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO generating core.<NUM>
+49x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO generating core.<NUM>
+57x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO generating core.<NUM>
+35x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO generating core.<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL force load/store alignment...............<NUM>
+26x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO generating core.<NUM>
+14x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO CE sym <NUM>, at <HEX>, mask <HEX>
+7x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO CE sym <NUM>, at <HEX>, mask <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: cpu <NUM> at treeaddr <NUM> sent unrecognized message <HEX>
+6x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: LOGIN chdir(<PATH>) failed: No such file or directory
+12x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>
+60x KERNDTLB <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL data TLB error interrupt
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: Message code <NUM> is not <NUM> or <NUM>
+17x KERNSTOR <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL data storage interrupt
+3x KERNSTOR <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL FATAL data storage interrupt
+2x KERNSTOR <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL FATAL data storage interrupt
+12x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL instruction address: <HEX>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL FATAL instruction address: <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL FATAL instruction address: <HEX>
+2x KERNSTOR <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL FATAL data storage interrupt
+2x KERNSTOR <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL FATAL data storage interrupt
+3x KERNSTOR <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL FATAL data storage interrupt
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL FATAL instruction address: <HEX>
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL FATAL instruction address: <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL FATAL instruction address: <HEX>
+6x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL data address: <HEX>
+5x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL machine check: i-fetch......................<NUM>
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL program interrupt: illegal instruction......<NUM>
+KERNSTOR <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL FATAL data storage interrupt
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL FATAL data address: <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL FATAL data address: <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL FATAL exception syndrome register: <HEX>
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL exception syndrome register: <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL FATAL exception syndrome register: <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL FATAL data store interrupt caused by dcbf.........<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL data store interrupt caused by dcbf.........<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL FATAL program interrupt: illegal instruction......<NUM>
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL program interrupt: privileged instruction...<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL FATAL program interrupt: trap instruction.........<NUM>
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL program interrupt: imprecise exception......<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL FATAL store operation.............................<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL FATAL store operation.............................<NUM>
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL machine state register: <HEX>
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL data store interrupt caused by icbi.........<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL problem state (<NUM>=sup,<NUM>=usr).......<NUM>
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL FATAL floating point instr. enabled.....<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL floating point instr. enabled.....<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL FATAL auxiliary processor.........................<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL FATAL machine check enable..............<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL machine check enable..............<NUM>
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL floating pt ex mode <NUM> enable......<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL FATAL program interrupt: unimplemented operation..<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL debug interrupt enable............<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL byte ordering exception.....................<NUM>
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL data address space................<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL FATAL data address space................<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL FATAL core configuration register: <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL program interrupt: fp cr update.............<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL FATAL guaranteed instruction cache block touch.<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL guaranteed instruction cache block touch.<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL FATAL program interrupt: fp cr field .............<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL program interrupt: fp cr field .............<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL guaranteed data cache block touch........<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL FATAL program interrupt: fp cr field .............<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL icache prefetch depth....................<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL icache prefetch threshold................<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL FATAL machine state register: <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL wait state enable.................<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL critical input interrupt enable...<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL FATAL problem state (<NUM>=sup,<NUM>=usr).......<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL special purpose registers:
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL lr:<NUM>ed<NUM> cr:<NUM> xer:<NUM> ctr:<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL rts internal error
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL FATAL floating pt ex mode <NUM> enable......<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL debug wait enable.................<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL instruction address space.........<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL FATAL data address space................<NUM>
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL core configuration register: <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL FATAL core configuration register: <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL FATAL core configuration register: <HEX>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL FATAL disable store gathering..................<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL disable store gathering..................<NUM>
+8x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO total of <NUM> ddr error(s) detected and corrected
+6x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error loading <PATH>: invalid or missing program image, No such file or directory
+APPCHILD <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error creating node map from file <PATH>: No child processes
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error loading ./runtime_malloc: invalid or missing program image, No such file or directory
+5x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> double-hummer alignment exceptions
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> double-hummer alignment exceptions
+8x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> double-hummer alignment exceptions
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO program interrupt
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO program interrupt: illegal instruction......<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO program interrupt: illegal instruction......<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO program interrupt: privileged instruction...<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO data store interrupt caused by dcbf.........<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO data store interrupt caused by icbi.........<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO data store interrupt caused by icbi.........<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO auxiliary processor.........................<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO auxiliary processor.........................<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO auxiliary processor.........................<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO program interrupt: unimplemented operation..<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO program interrupt: imprecise exception......<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO program interrupt
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO instruction address: <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO exception syndrome register: <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO program interrupt: privileged instruction...<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO data store interrupt caused by dcbf.........<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE NULL DISCOVERY WARNING Node card is not fully functional
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error creating node map from file <PATH>: Bad file descriptor
+- <NUM> <NUM>.<NUM> UNKNOWN_LOCATION <DATE>-<NUM>.<NUM> UNKNOWN_LOCATION NULL DISCOVERY INFO Ido chip status changed: <MAC>:<MAC> ip=<IP> v=<NUM> t=<NUM> status=M Fri Jul <NUM> <TIME> PDT <NUM>
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> NULL DISCOVERY SEVERE Can not get assembly information for node card
+8x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> double-hummer alignment exceptions
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> double-hummer alignment exceptions
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: Missing or invalid fields on line <NUM> of node map file <PATH>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> torus receiver z+ input pipe error(s) (dcr <HEX>) detected and corrected
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> NULL DISCOVERY WARNING Node card is not fully functional
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: duplicate canonical-rank <NUM> to logical-rank <NUM> mapping at line <NUM> of node map file <PATH>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error creating node map from file <PATH>: Block device required
+2x KERNRTSP <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL rts panic! - stopping execution
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error creating node map from file <PATH>: Permission denied
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: Z coordinate <NUM> exceeds physical dimension <NUM> at line <NUM> of node map file <PATH>
+KERNTERM <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL rts: kernel terminated for reason <NUM>rts: bad message header: invalid cpu, type=<NUM>, cpu=<NUM>, index=<NUM>, total=<NUM>
+77x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> floating point alignment exceptions
+8x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> floating point alignment exceptions
+12x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> floating point alignment exceptions
+9x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> floating point alignment exceptions
+6x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> floating point alignment exceptions
+5x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> floating point alignment exceptions
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> floating point alignment exceptions
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>
+3x - <NUM> <NUM>.<NUM> UNKNOWN_LOCATION <DATE>-<NUM>.<NUM> UNKNOWN_LOCATION NULL DISCOVERY INFO New ido chip inserted into the database: <MAC>:<MAC> ip=<IP> v=<NUM> t=<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> NULL HARDWARE SEVERE NodeCard is not fully functional
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> NULL DISCOVERY ERROR Node card status: ALERT <NUM>, ALERT <NUM>, ALERT <NUM>, ALERT <NUM> is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <NUM> volt rail is OK. The <NUM> volt rail is OK.
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND NULL DISCOVERY INFO Node card VPD check: U<NUM> node in processor card slot J<NUM> do not match. VPD ecid <HASH>, found <HASH>
+2x - <NUM> <NUM>.<NUM> UNKNOWN_LOCATION <DATE>-<NUM>.<NUM> UNKNOWN_LOCATION NULL DISCOVERY SEVERE Can not get assembly information for node card
+35x - <NUM> <NUM>.<NUM> NULL <DATE>-<NUM>.<NUM> NULL RAS MMCS ERROR idoproxydb hit ASSERT condition: ASSERT expression=<NUM> Source file=idotransportmgr.cpp Source line=<NUM> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC NULL DISCOVERY ERROR Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.
+6x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> NULL DISCOVERY INFO Node card VPD check: U<NUM> node in processor card slot J<NUM> do not match. VPD ecid <HASH>, found <HASH>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND NULL DISCOVERY WARNING Node card is not fully functional
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> NULL DISCOVERY ERROR Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.
+2x - <NUM> <NUM>.<NUM> UNKNOWN_LOCATION <DATE>-<NUM>.<NUM> UNKNOWN_LOCATION NULL DISCOVERY INFO Ido chip status changed: <MAC>:<MAC> ip=<IP> v=<NUM> t=<NUM> status=M Thu Aug <NUM> <TIME> PDT <NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> NULL HARDWARE WARNING PrepareForService shutting down NodeCard(mLctn(R<NUM>-M<NUM>-N<NUM>), mCardSernum(<HASH>), mLp(<MAC>:<MAC>), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>
+- <NUM> <NUM>.<NUM> UNKNOWN_LOCATION <DATE>-<NUM>.<NUM> UNKNOWN_LOCATION NULL DISCOVERY INFO Ido chip status changed: <MAC>:<MAC> ip=<IP> v=<NUM> t=<NUM> status=M Tue Aug <NUM> <TIME> PDT <NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C X- Y- Z+ Z-
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected
+14x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error loading <PATH>: invalid or missing program image, Exec format error
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error loading <PATH>: invalid or missing program image, Exec format error
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: LOGIN chdir(pwd) failed: No such file or directory
+6x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error loading <PATH>: invalid or missing program image, No such file or directory
+8x APPSEV <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <IP>: Link has been severed
+2x KERNTERM <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL FATAL rts: kernel terminated for reason <NUM>
+2x KERNTERM <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL rts: kernel terminated for reason <NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO total of <NUM> ddr error(s) detected and corrected
+5x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: LOGIN chdir(<PATH>) failed: No such file or directory
+22x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: generated <NUM> core files for program <PATH>
+5x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: generated <NUM> core files for program <PATH>
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO CE sym <NUM>, at <HEX>, mask <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO total of <NUM> ddr error(s) detected and corrected
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>fc dear <NUM>b<NUM>e<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>dc dear <NUM>b<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>fc dear <NUM>b<NUM>db<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>c<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>c<NUM>c<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>a<NUM> dear <NUM>b<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>efe<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>efcbc<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>c dear <NUM>efc<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>c dear <NUM>efd<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>a<NUM> dear <NUM>efd<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>a<NUM> dear <NUM>fcc<NUM>b<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>f<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>f<NUM>a<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>f<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>f<NUM>f<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>fc<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>c dear <NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>c dear <NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>a<NUM> dear <NUM>f<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>ef<NUM>b<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>ef<NUM>c<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>bd<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>b<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>a<NUM>a<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>e<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>c dear <NUM>b<NUM>d<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>e<NUM>bd<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>f<NUM>a<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>a<NUM> dear <NUM>a<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>f<NUM>b<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>c dear <NUM>f<NUM>b<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>fc<NUM> dear <NUM>d<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>b<NUM>f<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>fc<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>d<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>e<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>c<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>ee<NUM> dear <NUM>a<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>f<NUM> dear <NUM>be<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>a<NUM>af<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>b<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>a<NUM>f<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>cdc<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>ee<NUM> dear <NUM>e<NUM>e<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>c<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>f<NUM> dear <NUM>f<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM>e<NUM> dear <NUM>e<NUM>c<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>a<NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS KERNEL INFO NFS Mount failed on bglio<NUM>, slept <NUM> seconds, retrying (<NUM>)
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: generated <NUM> core files for program IMB-MPI<NUM>MB_perf
+4x KERNMNTF <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS KERNEL FATAL Lustre mount FAILED : bglio<NUM> : point <PATH>
+5x KERNMNTF <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS KERNEL FATAL Lustre mount FAILED : bglio<NUM> : point <PATH>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> torus receiver x+ input pipe error(s) (dcr <HEX>) detected and corrected
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: pollControlDescriptors: Detected the debugger died.
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: In packet from node <NUM> (R<NUM>-M<NUM>-Nf-C:J<NUM>-U<NUM>), message code <NUM> is not <NUM> or <NUM> (softheader=<NUM>b<NUM>b <NUM> <NUM> <NUM>)
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> torus receiver y+ input pipe error(s) (dcr <HEX>) detected and corrected
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO suppressing further interrupts of same type
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO total of <NUM> ddr error(s) detected and corrected
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO CE sym <NUM>, at <HEX>, mask <HEX>
+- <NUM> <NUM>.<NUM> UNKNOWN_LOCATION <DATE>-<NUM>.<NUM> UNKNOWN_LOCATION NULL DISCOVERY INFO Ido chip status changed: <MAC>:<MAC> ip=<IP> v=<NUM> t=<NUM> status=M Sat Sep <NUM> <TIME> PDT <NUM>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA NULL DISCOVERY INFO Node card VPD check: U<NUM> node in processor card slot J<NUM> do not match. VPD ecid <HASH>, found <HASH>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error loading <PATH>//bandwidth.rts: invalid or missing program image, No such file or directory
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error loading <PATH>//torus-latency.rts: invalid or missing program image, No such file or directory
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error loading <PATH>//broadcast.rts: invalid or missing program image, No such file or directory
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL rts: bad message header: expecting type <NUM> instead of type <NUM> (softheader=<NUM>db<NUM> <NUM>aa<NUM> <NUM> <NUM>) PSR<NUM>=<NUM>f<NUM> PSR<NUM>=<NUM> PRXF=<NUM> PIXF=<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error loading <PATH>//bandwidth.rts: invalid or missing program image, No such file or directory
+5x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: LOGIN chdir(<PATH>///<NUM>.<NUM>-<NUM>.<NUM>) failed: No such file or directory
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO total of <NUM> ddr error(s) detected and corrected
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO CE sym <NUM>, at <HEX>, mask <HEX>
+APPSEV <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <IP>: Link has been severed
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: generated <NUM> core files for program <PATH>//ddcMDbglV
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO critical input interrupt (unit=<HEX> bit=<HEX>): warning for torus y+ wire
+18x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error loading <PATH>: invalid or missing program image, Permission denied
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error loading <PATH>: invalid or missing program image, Permission denied
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO suppressing further interrupts of same type
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected
+6x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO data cache search parity error detected. attempting to correct
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS KERNEL INFO shutdown complete
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error loading allreduce_int_V<NUM>R<NUM>.rts: invalid or missing program image, No such file or directory
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO critical input interrupt (unit=<HEX> bit=<HEX>): warning for torus z- wire
+KERNTERM <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL FATAL rts: kernel terminated for reason <NUM>
+KERNREC <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL Error receiving packet on tree network, expecting type <NUM> instead of type <NUM> (softheader=<NUM>e <NUM>aff<NUM> <NUM> <NUM>) PSR<NUM>=<NUM>f<NUM> PSR<NUM>=<NUM> PRXF=<NUM> PIXF=<NUM>
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO CE sym <NUM>, at <HEX>, mask <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO instruction cache parity error corrected
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c<NUM>dc
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c<NUM>dc
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c<NUM>ec
+15x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c<NUM>c
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c<NUM>ec
+11x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>dc dear <NUM>c<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c<NUM>ec
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>ea<NUM> dear <NUM>c<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>e<NUM> dear <NUM>f<NUM>c
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c<NUM>dc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>bbc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>bcc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>bbc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>bcc
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c<NUM>c
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>bfc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>bec
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>bec
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>e<NUM>c
+6x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>e<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>a<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>fc dear <NUM>f<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>a<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>c dear <NUM>ccfc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>bd<NUM> dear <NUM>ce<NUM>c
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>ccfc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>bd<NUM> dear <NUM>cd<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>c dear <NUM>ccfc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>b<NUM>c dear <NUM>ce<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>bc<NUM> dear <NUM>cd<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>bd<NUM> dear <NUM>cd<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>bd<NUM> dear <NUM>ceec
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>c dear <NUM>f<NUM>fc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>b<NUM>c dear <NUM>cf<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>bc<NUM> dear <NUM>cdec
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>bd<NUM> dear <NUM>cf<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>cd<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>c dear <NUM>f<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>c dear <NUM>f<NUM>c
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>b<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>c dear <NUM>b<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>d<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>f<NUM>e<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>fc dear <NUM>b<NUM>c
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>c dear <NUM>b<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>f<NUM>cfc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>b<NUM>bc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>b<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>fc dear <NUM>b<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>cc dear <NUM>f<NUM>c
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>fd<NUM> dear <NUM>a<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>e<NUM> dear <NUM>a<NUM>c
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>ec dear <NUM>f<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>c dear <NUM>a<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>f<NUM>bd<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>cf<NUM> dear <NUM>f<NUM>fc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>f<NUM>bd<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>ac dear <NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>c<NUM> dear <NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>c<NUM> dear <NUM>fc
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>b<NUM> dear <NUM>b<NUM>c<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>a<NUM> dear <NUM>b<NUM>cac
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>ac dear <NUM>c
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>c<NUM> dear <NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>ac dear <NUM>bc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>a<NUM>bc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>a<NUM>ec
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>c dear <NUM>a<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>d<NUM> dear <NUM>cc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>bc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>f<NUM>edc
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>e<NUM> dear <NUM>f<NUM>c
+6x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>e<NUM> dear <NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>e<NUM> dear <NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>b<NUM> dear <NUM>dc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>e<NUM> dear <NUM>dc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>e<NUM> dear <NUM>c
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>b<NUM> dear <NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>b<NUM> dear <NUM>ac
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>b<NUM> dear <NUM>c
+KERNREC <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL Error receiving packet on tree network, expecting type <NUM> instead of type <NUM> (softheader=<NUM> <NUM> <NUM> <NUM>) PSR<NUM>=<NUM>f<NUM> PSR<NUM>=<NUM> PRXF=<NUM> PIXF=<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>ba<NUM> dear <NUM>de<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>b<NUM> dear <NUM>dd<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM>c<NUM>c dear <NUM>de<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>dbbc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>db<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>dbec
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>f<NUM>a<NUM>fc
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>fee<NUM>c<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> L<NUM> EDRAM error(s) (dcr <HEX>) detected and corrected
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>da<NUM>c
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>dacc
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO iar <NUM> dear <NUM>f<NUM>a<NUM>c
+KERNTERM <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL FATAL rts: kernel terminated for reason <NUM>
+KERNREC <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL FATAL Error receiving packet on tree network, expecting type <NUM> instead of type <NUM> (softheader=<NUM>ce<NUM>e<NUM> e<NUM> <NUM> <NUM>) PSR<NUM>=<NUM>f<NUM> PSR<NUM>=<NUM> PRXF=<NUM> PIXF=<NUM>
+KERNREC <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL Error receiving packet on tree network, expecting type <NUM> instead of type <NUM> (softheader=<NUM>ce<NUM>e<NUM> e<NUM> <NUM> <NUM>) PSR<NUM>=<NUM>f<NUM> PSR<NUM>=<NUM> PRXF=<NUM> PIXF=<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO critical input interrupt (unit=<HEX> bit=<HEX>): warning for torus z+ wire, suppressing further interrupts of same type
+KERNREC <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL Error receiving packet on tree network, expecting type <NUM> instead of type <NUM> (softheader=<NUM>d<NUM> <NUM>bfa<NUM> <NUM> <NUM>) PSR<NUM>=<NUM>f<NUM> PSR<NUM>=<NUM> PRXF=<NUM> PIXF=<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> torus sender z- retransmission error(s) (dcr <HEX>) detected and corrected over <NUM> seconds
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> torus sender z- retransmission error(s) (dcr <HEX>) detected and corrected over <NUM> seconds
+9x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: Received signal <NUM>, code=<NUM>, errno=<NUM>, address=<HEX>
+7x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: Received signal <NUM>, code=<NUM>, errno=<NUM>, address=<HEX>
+2x KERNMNTF <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS KERNEL FATAL Lustre mount FAILED : bglio<NUM> : block_id : location
+7x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS KERNEL INFO MACHINE CHECK DCR read timeout (mc=e<NUM>x iar <HEX> lr <HEX>)
+2x APPTO <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <IP>, Connection timed out
+3x APPRES <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <IP>, Connection reset by peer
+APPRES <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <IP>, Connection reset by peer
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL FATAL dbcr<NUM>=<HEX> dbsr=<HEX> ccr<NUM>=<HEX>
+7x APPSEV <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL FATAL r<NUM>=<HEX> r<NUM>=<HEX> r<NUM>=<HEX> r<NUM>=<HEX>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> microseconds spent in the rbs signal handler during <NUM> calls. <NUM> microseconds was the maximum time for a single instance of a correctable ddr.
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> microseconds spent in the rbs signal handler during <NUM> calls. <NUM> microseconds was the maximum time for a single instance of a correctable ddr.
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> microseconds spent in the rbs signal handler during <NUM> calls. <NUM> microseconds was the maximum time for a single instance of a correctable ddr.
+45x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> total interrupts. <NUM> critical input interrupts. <NUM> microseconds total spent on critical input interrupts, <NUM> microseconds max time in a critical input interrupt.
+34x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> microseconds spent in the rbs signal handler during <NUM> calls. <NUM> microseconds was the maximum time for a single instance of a correctable ddr.
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> total interrupts. <NUM> critical input interrupts. <NUM> microseconds total spent on critical input interrupts, <NUM> microseconds max time in a critical input interrupt.
+6x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> total interrupts. <NUM> critical input interrupts. <NUM> microseconds total spent on critical input interrupts, <NUM> microseconds max time in a critical input interrupt.
+5x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> total interrupts. <NUM> critical input interrupts. <NUM> microseconds total spent on critical input interrupts, <NUM> microseconds max time in a critical input interrupt.
+7x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> total interrupts. <NUM> critical input interrupts. <NUM> microseconds total spent on critical input interrupts, <NUM> microseconds max time in a critical input interrupt.
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> total interrupts. <NUM> critical input interrupts. <NUM> microseconds total spent on critical input interrupts, <NUM> microseconds max time in a critical input interrupt.
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> microseconds spent in the rbs signal handler during <NUM> calls. <NUM> microseconds was the maximum time for a single instance of a correctable ddr.
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-ND-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> total interrupts. <NUM> critical input interrupts. <NUM> microseconds total spent on critical input interrupts, <NUM> microseconds max time in a critical input interrupt.
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> microseconds spent in the rbs signal handler during <NUM> calls. <NUM> microseconds was the maximum time for a single instance of a correctable ddr.
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> microseconds spent in the rbs signal handler during <NUM> calls. <NUM> microseconds was the maximum time for a single instance of a correctable ddr.
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM> NULL HARDWARE WARNING PrepareForService shutting down Node card(mLctn(R<NUM>-M<NUM>-N<NUM>), mCardSernum(<HASH>), mLp(<MAC>:<MAC>), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL INFO Kernel detected <NUM> integer alignment exceptions (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds
+3x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO total of <NUM> ddr error(s) detected and corrected over <NUM> seconds
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL minus normalized number..................<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL FATAL fraction rounded.........................<NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC NULL DISCOVERY WARNING Node card is not fully functional
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO critical input interrupt (unit=<HEX> bit=<HEX>): warning for tree C<NUM> wire, suppressing further interrupts of same type
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL size of scratchpad portion of L<NUM>.........<NUM> (<NUM>M)
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO Kernel detected <NUM> integer alignment exceptions (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO Kernel detected <NUM> integer alignment exceptions (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX>
+2x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NF-C:J<NUM>-U<NUM> RAS KERNEL INFO Kernel detected <NUM> integer alignment exceptions (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO Kernel detected <NUM> integer alignment exceptions (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX> (<NUM>) iar <HEX>, dear <HEX>
+4x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NB-C:J<NUM>-U<NUM> RAS KERNEL INFO total of <NUM> ddr error(s) detected and corrected over <NUM> seconds
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NE-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds
+APPOUT <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: LOGIN chdir(<PATH>) failed: Input/output error
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO critical input interrupt (unit=<HEX> bit=<HEX>): warning for torus z+ wire, suppressing further interrupts of same type
+APPSEV <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: pollControlDescriptors: Detected the debugger died.
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL INFO <NUM> L<NUM> EDRAM error(s) (dcr <HEX>) detected and corrected over <NUM> seconds
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS APP FATAL ciod: Error loading <PATH>: program image too big, <NUM> > <NUM>
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NA-C:J<NUM>-U<NUM> RAS KERNEL FATAL fpr<NUM>=<HEX> ffffffff ffffffff ffffffff
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-C:J<NUM>-U<NUM> RAS KERNEL FATAL Machine State Register: <HEX>
+8x - <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-NC-C:J<NUM>-U<NUM> RAS KERNEL INFO instruction cache parity error corrected
+- <NUM> <NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> <DATE>-<NUM>.<NUM> R<NUM>-M<NUM>-N<NUM>-I:J<NUM>-U<NUM> RAS KERNEL INFO ciod: generated <NUM> core files for program <PATH>

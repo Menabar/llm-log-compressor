@@ -1,0 +1,18 @@
+[package]
+name = "loglens-mcp"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "loglens-mcp"
+path = "src/main.rs"
+
+[dependencies]
+loglens-core = { path = "../loglens-core" }
+rmcp = { version = "=1.7.0", features = ["server", "macros", "transport-io"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+schemars = "1"
+uuid = { version = "1", features = ["v4"] }
+anyhow = "1"

@@ -1,0 +1,248 @@
+# Thunderbird_2k.log | level=conservative
+# 2000 lines -> 245 groups (ratio 0.122)
+
+9x - <NUM> <NUM>.<NUM> dn<NUM> Nov <NUM> <TIME> dn<NUM>/dn<NUM> crond(pam_unix)[<NUM>]: session closed for user root
+9x - <NUM> <NUM>.<NUM> dn<NUM> Nov <NUM> <TIME> dn<NUM>/dn<NUM> crond(pam_unix)[<NUM>]: session opened for user root by (uid=<NUM>)
+9x - <NUM> <NUM>.<NUM> dn<NUM> Nov <NUM> <TIME> dn<NUM>/dn<NUM> crond[<NUM>]: (root) CMD (run-parts <PATH>)
+4x - <NUM> <NUM>.<NUM> eadmin<NUM> Nov <NUM> <TIME> src@eadmin<NUM> crond(pam_unix)[<NUM>]: session closed for user root
+3x - <NUM> <NUM>.<NUM> eadmin<NUM> Nov <NUM> <TIME> src@eadmin<NUM> crond(pam_unix)[<NUM>]: session opened for user root by (uid=<NUM>)
+2x - <NUM> <NUM>.<NUM> eadmin<NUM> Nov <NUM> <TIME> src@eadmin<NUM> crond[<NUM>]: (root) CMD (run-parts <PATH>)
+2x - <NUM> <NUM>.<NUM> en<NUM> Nov <NUM> <TIME> en<NUM>/en<NUM> crond(pam_unix)[<NUM>]: session closed for user root
+2x - <NUM> <NUM>.<NUM> en<NUM> Nov <NUM> <TIME> en<NUM>/en<NUM> crond(pam_unix)[<NUM>]: session opened for user root by (uid=<NUM>)
+2x - <NUM> <NUM>.<NUM> en<NUM> Nov <NUM> <TIME> en<NUM>/en<NUM> crond[<NUM>]: (root) CMD (run-parts <PATH>)
+243x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> <PATH>[<NUM>]: data_thread() got not answer from any [Thunderbird_A<NUM>] datasource
+243x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> <PATH>[<NUM>]: data_thread() got not answer from any [Thunderbird_B<NUM>] datasource
+181x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> <PATH>[<NUM>]: data_thread() got not answer from any [Thunderbird_C<NUM>] datasource
+- <NUM> <NUM>.<NUM> #<NUM># Nov <NUM> <TIME> #<NUM>#/#<NUM># crond(pam_unix)[<NUM>]: session closed for user root
+- <NUM> <NUM>.<NUM> #<NUM># Nov <NUM> <TIME> #<NUM>#/#<NUM># crond(pam_unix)[<NUM>]: session opened for user root by (uid=<NUM>)
+- <NUM> <NUM>.<NUM> #<NUM># Nov <NUM> <TIME> #<NUM>#/#<NUM># crond[<NUM>]: (root) CMD (run-parts <PATH>)
+319x - <NUM> <NUM>.<NUM> cn<NUM> Nov <NUM> <TIME> cn<NUM>/cn<NUM> ntpd[<NUM>]: synchronized to <IP>, stratum <NUM>
+84x - <NUM> <NUM>.<NUM> dn<NUM> Nov <NUM> <TIME> dn<NUM>/dn<NUM> ntpd[<NUM>]: synchronized to <IP>, stratum <NUM>
+161x - <NUM> <NUM>.<NUM> bn<NUM> Nov <NUM> <TIME> bn<NUM>/bn<NUM> ntpd[<NUM>]: synchronized to <IP>, stratum <NUM>
+62x - <NUM> <NUM>.<NUM> tbird-sm<NUM> Nov <NUM> <TIME> src@tbird-sm<NUM> ib_sm.x[<NUM>]: [ib_sm_sweep.c:<NUM>]: ********************** NEW SWEEP ********************
+152x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> <PATH>[<NUM>]: data_thread() got not answer from any [Thunderbird_D<NUM>] datasource
+62x - <NUM> <NUM>.<NUM> tbird-sm<NUM> Nov <NUM> <TIME> src@tbird-sm<NUM> ib_sm.x[<NUM>]: [ib_sm_sweep.c:<NUM>]: No topology change
+62x - <NUM> <NUM>.<NUM> tbird-sm<NUM> Nov <NUM> <TIME> src@tbird-sm<NUM> ib_sm.x[<NUM>]: [ib_sm_sweep.c:<NUM>]: No configuration change required
+3x - <NUM> <NUM>.<NUM> #<NUM># Nov <NUM> <TIME> #<NUM>#/#<NUM># sshd[<NUM>]: Local disconnected: Connection closed.
+3x - <NUM> <NUM>.<NUM> #<NUM># Nov <NUM> <TIME> #<NUM>#/#<NUM># sshd[<NUM>]: connection lost: 'Connection closed.'
+2x - <NUM> <NUM>.<NUM> eadmin<NUM> Nov <NUM> <TIME> src@eadmin<NUM> sendmail[<NUM>]: unable to qualify my own domain name (eadmin<NUM>) -- using short name
+- <NUM> <NUM>.<NUM> eadmin<NUM> Nov <NUM> <TIME> src@eadmin<NUM> sendmail[<NUM>]: jA<NUM>J<NUM>UvC<NUM>: from=root, size=<NUM>, class=<NUM>, nrcpts=<NUM>, msgid=<<NUM>.jA<NUM>J<NUM>UvC<NUM>@eadmin<NUM>>, relay=#<NUM>#@localhost
+- <NUM> <NUM>.<NUM> eadmin<NUM> Nov <NUM> <TIME> src@eadmin<NUM> sendmail[<NUM>]: jA<NUM>J<NUM>UvC<NUM>: to=root, ctladdr=root (<NUM>/<NUM>), delay=<TIME>, xdelay=<TIME>, mailer=relay, pri=<NUM>, relay=[<IP>] [<IP>], dsn=<NUM>.<NUM>, stat=Deferred: Connection refused by [<IP>]
+2x - <NUM> <NUM>.<NUM> badmin<NUM> Nov <NUM> <TIME> src@badmin<NUM> sendmail[<NUM>]: unable to qualify my own domain name (badmin<NUM>) -- using short name
+2x - <NUM> <NUM>.<NUM> cadmin<NUM> Nov <NUM> <TIME> src@cadmin<NUM> sendmail[<NUM>]: unable to qualify my own domain name (cadmin<NUM>) -- using short name
+2x - <NUM> <NUM>.<NUM> dadmin<NUM> Nov <NUM> <TIME> src@dadmin<NUM> sendmail[<NUM>]: unable to qualify my own domain name (dadmin<NUM>) -- using short name
+2x - <NUM> <NUM>.<NUM> cadmin<NUM> Nov <NUM> <TIME> src@cadmin<NUM> crond(pam_unix)[<NUM>]: session closed for user root
+- <NUM> <NUM>.<NUM> cadmin<NUM> Nov <NUM> <TIME> src@cadmin<NUM> sendmail[<NUM>]: jA<NUM>J<NUM>Wd<NUM>: from=root, size=<NUM>, class=<NUM>, nrcpts=<NUM>, msgid=<<NUM>.jA<NUM>J<NUM>Wd<NUM>@cadmin<NUM>>, relay=#<NUM>#@localhost
+- <NUM> <NUM>.<NUM> cadmin<NUM> Nov <NUM> <TIME> src@cadmin<NUM> sendmail[<NUM>]: jA<NUM>J<NUM>Wd<NUM>: to=root, ctladdr=root (<NUM>/<NUM>), delay=<TIME>, xdelay=<TIME>, mailer=relay, pri=<NUM>, relay=[<IP>] [<IP>], dsn=<NUM>.<NUM>, stat=Deferred: Connection refused by [<IP>]
+2x - <NUM> <NUM>.<NUM> badmin<NUM> Nov <NUM> <TIME> src@badmin<NUM> crond(pam_unix)[<NUM>]: session closed for user root
+- <NUM> <NUM>.<NUM> badmin<NUM> Nov <NUM> <TIME> src@badmin<NUM> sendmail[<NUM>]: jA<NUM>J<NUM>WSU<NUM>: from=root, size=<NUM>, class=<NUM>, nrcpts=<NUM>, msgid=<<NUM>.jA<NUM>J<NUM>WSU<NUM>@badmin<NUM>>, relay=#<NUM>#@localhost
+- <NUM> <NUM>.<NUM> badmin<NUM> Nov <NUM> <TIME> src@badmin<NUM> sendmail[<NUM>]: jA<NUM>J<NUM>WSU<NUM>: to=root, ctladdr=root (<NUM>/<NUM>), delay=<TIME>, xdelay=<TIME>, mailer=relay, pri=<NUM>, relay=[<IP>] [<IP>], dsn=<NUM>.<NUM>, stat=Deferred: Connection refused by [<IP>]
+2x - <NUM> <NUM>.<NUM> dadmin<NUM> Nov <NUM> <TIME> src@dadmin<NUM> crond(pam_unix)[<NUM>]: session closed for user root
+- <NUM> <NUM>.<NUM> dadmin<NUM> Nov <NUM> <TIME> src@dadmin<NUM> sendmail[<NUM>]: jA<NUM>J<NUM>WFE<NUM>: from=root, size=<NUM>, class=<NUM>, nrcpts=<NUM>, msgid=<<NUM>.jA<NUM>J<NUM>WFE<NUM>@dadmin<NUM>>, relay=#<NUM>#@localhost
+- <NUM> <NUM>.<NUM> dadmin<NUM> Nov <NUM> <TIME> src@dadmin<NUM> sendmail[<NUM>]: jA<NUM>J<NUM>WFE<NUM>: to=root, ctladdr=root (<NUM>/<NUM>), delay=<TIME>, xdelay=<TIME>, mailer=relay, pri=<NUM>, relay=[<IP>] [<IP>], dsn=<NUM>.<NUM>, stat=Deferred: Connection refused by [<IP>]
+2x - <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> sendmail[<NUM>]: unable to qualify my own domain name (aadmin<NUM>) -- using short name
+2x - <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> crond(pam_unix)[<NUM>]: session closed for user root
+5x - <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> dhcpd: DHCPDISCOVER from <TIME>:e<NUM>:ba:c<NUM> via eth<NUM>
+5x - <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> dhcpd: DHCPOFFER on <IP> to <TIME>:e<NUM>:ba:c<NUM> via eth<NUM>
+- <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> sendmail[<NUM>]: jA<NUM>J<NUM>dQ<NUM>: from=root, size=<NUM>, class=<NUM>, nrcpts=<NUM>, msgid=<<NUM>.jA<NUM>J<NUM>dQ<NUM>@aadmin<NUM>>, relay=#<NUM>#@localhost
+- <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> sendmail[<NUM>]: jA<NUM>J<NUM>dQ<NUM>: to=root, ctladdr=root (<NUM>/<NUM>), delay=<TIME>, xdelay=<TIME>, mailer=relay, pri=<NUM>, relay=[<IP>] [<IP>], dsn=<NUM>.<NUM>, stat=Deferred: Connection refused by [<IP>]
+15x - <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> dhcpd: DHCPDISCOVER from <TIME>:e<NUM>:ba:c<NUM> via eth<NUM>: network A_net: no free leases
+3x - <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> dhcpd: DHCPACK on <IP> to <TIME>:e<NUM>:ba:c<NUM> via eth<NUM>
+3x - <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> dhcpd: DHCPREQUEST for <IP> (<IP>) from <TIME>:e<NUM>:ba:c<NUM> via eth<NUM>
+- <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> xinetd[<NUM>]: START: tftp pid=<NUM> from=<IP>
+9x - <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> dhcpd: DHCPREQUEST for <IP> (<IP>) from <TIME>:e<NUM>:ba:c<NUM> via eth<NUM>: unknown lease <IP>.
+10x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> <PATH>[<NUM>]: RRD_update (<PATH> Nodes<PATH>): illegal attempt to update using time <NUM> when last update time is <NUM> (minimum one second step)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ntpd[<NUM>]: kernel time sync disabled <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ntpd[<NUM>]: time reset +<NUM> s
+- <NUM> <NUM>.<NUM> #<NUM># Nov <NUM> <TIME> #<NUM>#/#<NUM># snmpd[<NUM>]: Received SNMP packet(s) from #<NUM>#
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ntpd[<NUM>]: synchronized to LOCAL(<NUM>), stratum <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ntpd[<NUM>]: kernel time sync enabled <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ntpd[<NUM>]: synchronized to #<NUM>#, stratum <NUM>
+- <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> crond(pam_unix)[<NUM>]: session opened for user root by (uid=<NUM>)
+- <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> crond[<NUM>]: (root) CMD (<PATH> a)
+- <NUM> <NUM>.<NUM> badmin<NUM> Nov <NUM> <TIME> src@badmin<NUM> crond(pam_unix)[<NUM>]: session opened for user root by (uid=<NUM>)
+- <NUM> <NUM>.<NUM> badmin<NUM> Nov <NUM> <TIME> src@badmin<NUM> crond[<NUM>]: (root) CMD (<PATH> b)
+- <NUM> <NUM>.<NUM> cadmin<NUM> Nov <NUM> <TIME> src@cadmin<NUM> crond(pam_unix)[<NUM>]: session opened for user root by (uid=<NUM>)
+- <NUM> <NUM>.<NUM> cadmin<NUM> Nov <NUM> <TIME> src@cadmin<NUM> crond[<NUM>]: (root) CMD (<PATH> c)
+- <NUM> <NUM>.<NUM> dadmin<NUM> Nov <NUM> <TIME> src@dadmin<NUM> crond(pam_unix)[<NUM>]: session opened for user root by (uid=<NUM>)
+- <NUM> <NUM>.<NUM> dadmin<NUM> Nov <NUM> <TIME> src@dadmin<NUM> crond[<NUM>]: (root) CMD (<PATH> d)
+- <NUM> <NUM>.<NUM> eadmin<NUM> Nov <NUM> <TIME> src@eadmin<NUM> crond[<NUM>]: (root) CMD (<PATH> e)
+- <NUM> <NUM>.<NUM> eadmin<NUM> Nov <NUM> <TIME> src@eadmin<NUM> sendmail[<NUM>]: My unqualified host name (eadmin<NUM>) unknown; sleeping for retry
+- <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> sendmail[<NUM>]: My unqualified host name (aadmin<NUM>) unknown; sleeping for retry
+- <NUM> <NUM>.<NUM> badmin<NUM> Nov <NUM> <TIME> src@badmin<NUM> sendmail[<NUM>]: My unqualified host name (badmin<NUM>) unknown; sleeping for retry
+- <NUM> <NUM>.<NUM> cadmin<NUM> Nov <NUM> <TIME> src@cadmin<NUM> sendmail[<NUM>]: My unqualified host name (cadmin<NUM>) unknown; sleeping for retry
+- <NUM> <NUM>.<NUM> dadmin<NUM> Nov <NUM> <TIME> src@dadmin<NUM> sendmail[<NUM>]: My unqualified host name (dadmin<NUM>) unknown; sleeping for retry
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> - User ID: CentOS-<NUM> (Kernel Module GPG key)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: (supports S<NUM> S<NUM> S<NUM>)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: DSDT (v<NUM> DELL PE BKC <HEX> MSFT <HEX>) @ <HEX>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: FADT (v<NUM> DELL PE BKC <HEX> MSFT <HEX>) @ <HEX>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: HPET (v<NUM> DELL PE BKC <HEX> MSFT <HEX>) @ <HEX>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: HPET id: <HEX> base: <HEX>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: INT_SRC_OVR (bus <NUM> bus_irq <NUM> global_irq <NUM> dfl dfl)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: INT_SRC_OVR (bus <NUM> bus_irq <NUM> global_irq <NUM> high level)
+3x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: IOAPIC (id[<HEX>] address[<HEX>] gsi_base[<NUM>])
+3x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: IRQ<NUM> used by override.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: Interpreter enabled
+4x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: LAPIC (acpi_id[<HEX>] lapic_id[<HEX>] enabled)
+4x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: LAPIC_NMI (acpi_id[<HEX>] high edge lint[<HEX>])
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: Local APIC address <HEX>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: MADT (v<NUM> DELL PE BKC <HEX> MSFT <HEX>) @ <HEX>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: MCFG (v<NUM> DELL PE BKC <HEX> MSFT <HEX>) @ <HEX>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Link [LNKA] (IRQs <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM>) *<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Link [LNKB] (IRQs <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> *<NUM> <NUM>)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Link [LNKC] (IRQs <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM>) *<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Link [LNKD] (IRQs <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM>) *<NUM>, disabled.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Link [LNKE] (IRQs <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM>) *<NUM>, disabled.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Link [LNKF] (IRQs <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM>) *<NUM>, disabled.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Link [LNKG] (IRQs <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM>) *<NUM>, disabled.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Link [LNKH] (IRQs <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM>) *<NUM>, disabled.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Routing Table [\_SB_.PCI<NUM>.PALO.DOBA._PRT]
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Routing Table [\_SB_.PCI<NUM>.PALO.DOBB._PRT]
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Routing Table [\_SB_.PCI<NUM>.PALO._PRT]
+2x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Routing Table [\_SB_.PCI<NUM>.PBHI.PXB<NUM>._PRT]
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Routing Table [\_SB_.PCI<NUM>.PBHI._PRT]
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Routing Table [\_SB_.PCI<NUM>.PBLO._PRT]
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Routing Table [\_SB_.PCI<NUM>.PICH._PRT]
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Routing Table [\_SB_.PCI<NUM>.VPR<NUM>._PRT]
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Interrupt Routing Table [\_SB_.PCI<NUM>._PRT]
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI Root Bridge [PCI<NUM>] (<NUM>:<NUM>)
+8x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI interrupt <NUM><TIME>[A] -> GSI <NUM> (level, low) -> IRQ <NUM>
+2x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI interrupt <NUM>:<NUM>:<NUM>e.<NUM>[A] -> GSI <NUM> (level, low) -> IRQ <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: PCI interrupt <NUM>:<NUM>:<NUM>d.<NUM>[A] -> GSI <NUM> (level, low) -> IRQ <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: Power Button (FF) [PWRF]
+4x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: Processor [CPU<NUM>] (supports C<NUM>)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: RSDP (v<NUM> DELL ) @ <HEX>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: RSDT (v<NUM> DELL PE BKC <HEX> MSFT <HEX>) @ <HEX>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: SPCR (v<NUM> DELL PE BKC <HEX> MSFT <HEX>) @ <HEX>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: Subsystem revision <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ACPI: Using IOAPIC for interrupt routing
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> CPU<NUM>: Intel(R) Xeon(TM) CPU <NUM>GHz stepping <NUM>
+5x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> CPU: L<NUM> cache: <NUM>K
+5x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> CPU: Physical Processor ID: <NUM>
+5x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> CPU: Trace cache: <NUM>K uops, L<NUM> D cache: <NUM>K
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> Console: colour VGA+ <NUM><HEX>
+3x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> EXT<NUM>-fs: mounted filesystem with ordered data mode.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> IA<NUM> emulation $Id: sys_ia<NUM>.c,v <NUM> <NUM><PATH> <TIME> ak Exp $
+3x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> IOAPIC[<NUM>]: apic_id <NUM>, version <NUM>, address <HEX>, GSI <NUM>-<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> IP: routing cache hash table of <NUM> buckets, <NUM>Kbytes
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> Intel E<NUM><PATH> detected.<<NUM>>pci_hotplug: PCI Hot Plug PCI Core version: <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> Kernel command line: root=LABEL=/ initrd=<PATH> console=tty<NUM> console=ttyS<NUM>,<NUM> fastboot BOOT_IMAGE=<PATH>
+5x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> NET: Registered protocol family <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> PCI: Probing PCI hardware (bus <NUM>)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> PCI: Transparent bridge - <NUM>:<NUM>:<NUM>e.<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> PCI: Using ACPI for IRQ routing
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> PCI: Using MMCONFIG at e<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> PCI: Using configuration type <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> RAMDISK: Compressed image found at block <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> SELinux: Disabled at runtime.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> SELinux: Initializing.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> SELinux: Registering netfilter hooks
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> SELinux: Starting in permissive mode
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> SELinux: Unregistering netfilter hooks
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> TCP: Hash tables configured (established <NUM> bind <NUM>)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> Type: Direct-Access ANSI SCSI revision: <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> Type: Processor ANSI SCSI revision: <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> VFS: Disk quotas dquot_<NUM>.<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> VFS: Mounted root (ext<NUM> filesystem).
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> Vendor: MegaRAID Model: LD <NUM> RAID<NUM> <NUM>G Rev: <NUM>A
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> Vendor: PE/PV Model: <NUM>x<NUM> SCSI BP Rev: <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> audit(<NUM>:<NUM>): initialized
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> audit: initializing netlink socket (disabled)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> checking TSC synchronization across <NUM> CPUs: passed.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> device-mapper: <NUM>.<NUM>-ioctl (<DATE>) initialised: #<NUM>#@#<NUM>#
+2x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> divert: allocating divert_blk for eth<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> divert: not allocating divert_blk for non-ethernet device lo
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> drivers<PATH>: v<NUM>:USB HID core driver
+2x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> e<NUM>: eth<NUM>: e<NUM>_probe: Intel(R) PRO/<NUM> Network Connection
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> e<NUM>: eth<NUM>: e<NUM>_watchdog: NIC Link is Up <NUM> Mbps Full Duplex
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> floppy<NUM>: no floppy controllers found
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> hw_random: RNG not detected
+6x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ide<NUM>: Wait for ready failed before probe !
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ide: Assuming <NUM>MHz system bus speed for PIO modes; override with idebus=xx
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ioctl<NUM>(fdisk:<NUM>): Unknown cmd fd(<NUM>) cmd(<NUM>){<NUM>} arg(ffffda<NUM>) on <PATH>
+4x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ip_tables: (C) <NUM>-<NUM> Netfilter core team
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ksign: Installing public key data
+2x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> md: ... autorun DONE.
+2x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> md: Autodetecting RAID arrays.
+2x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> md: autorun ...
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> md: md driver <NUM>.<NUM> MAX_MD_DEVS=<NUM>, MD_SB_DISKS=<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> megaraid cmm: #<NUM>#-rh<NUM> (Release Date: Fri Dec <NUM> <TIME> EST <NUM>)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> megaraid: #<NUM># (Release Date: Mon Sep <NUM> <TIME> EDT <NUM>)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> megaraid: fw version:[<NUM>A] bios version:[H<NUM>]
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> megaraid: probe new device <HEX>:<HEX>:<HEX>:<HEX>: bus <NUM>:slot <NUM>:func <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> mice: PS/<NUM> mouse device common for all mice
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> mtrr: v<NUM> (<NUM>)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> nfslock: rpc.statd startup succeeded
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> portmap: portmap startup succeeded
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> rc: Starting ts_fixup: succeeded
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> rpc.statd[<NUM>]: Version <NUM>.<NUM> Starting
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> scsi<NUM> : LSI Logic MegaRAID driver
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> scsi[<NUM>]: scanning scsi channel <NUM> [Phy <NUM>] for non-raid devices
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> scsi[<NUM>]: scanning scsi channel <NUM> [virtual] for logical drives
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> sda: asking for cache data failed
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> sda: assuming drive cache: write through
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> sda: sda<NUM> sda<NUM> sda<NUM> sda<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> selinux_register_security: Registering secondary module capability
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> serio: i<NUM> AUX port at <HEX>,<HEX> irq <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> serio: i<NUM> KBD port at <HEX>,<HEX> irq <NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> syslog-ng: syslog-ng startup succeeded
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> syslog-ng[<NUM>]: syslog-ng version <NUM>.<NUM> starting
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> time.c: Detected <NUM> MHz processor.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> time.c: Using <NUM> MHz HPET timer.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> time.c: Using HPET based timekeeping.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> ts_fixup: Creating Topspin /dev entries:
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> usbcore: registered new driver hiddev
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> usbcore: registered new driver hub
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> usbcore: registered new driver usbfs
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> usbcore: registered new driver usbhid
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> vesafb: probe of vesafb<NUM> failed with error -<NUM>
+2x - <NUM> <NUM>.<NUM> #<NUM># Nov <NUM> <TIME> #<NUM>#/#<NUM># sshd[<NUM>]: connection from "#<NUM>#"
+2x - <NUM> <NUM>.<NUM> #<NUM># Nov <NUM> <TIME> #<NUM>#/#<NUM># sshd[<NUM>]: User #<NUM>#, coming from #<NUM>#, authenticated.
+2x - <NUM> <NUM>.<NUM> #<NUM># Nov <NUM> <TIME> #<NUM>#/#<NUM># sshd<NUM>[<NUM>]: Now running on #<NUM>#'s privileges.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> netfs: Mounting NFS filesystems: succeeded
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> netfs: Mounting other filesystems: failed
+9x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> gmetad: Warning: we failed to resolve data source name an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM> an<NUM>
+8x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> gmetad: Warning: we failed to resolve data source name bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM> bn<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> gmetad: Warning: we failed to resolve data source name dadmin<NUM> dadmin<NUM> dadmin<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> <PATH>[<NUM>]: RRD_update (<PATH>): illegal attempt to update using time <NUM> when last update time is <NUM> (minimum one second step)
+8x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> gmetad: Warning: we failed to resolve data source name cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM> cn<NUM>
+8x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> gmetad: Warning: we failed to resolve data source name dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM> dn<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> gmetad: Warning: we failed to resolve trusted host name dadmin<NUM> dadmin<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> gmetad: gmetad startup succeeded
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> divert: not allocating divert_blk for non-ethernet device sit<NUM>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> sshd: succeeded
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> sshd[<NUM>]: Server listening on :: port <NUM>.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> sshd[<NUM>]: error: Bind to port <NUM> on <IP> failed: Address already in use.
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> syslog-ng[<NUM>]: Cannot open file <PATH> for writing (No such file or directory)
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> syslog-ng[<NUM>]: Changing permissions on special file <PATH>
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> solproxy: succeeded
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd: xinetd startup succeeded
+17x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: Reading included configuration file: <PATH> [file=<PATH>] [line=<NUM>]
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: Started working: <NUM> available service
+2x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: removing chargen
+2x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: removing daytime
+2x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: removing echo
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: removing eklogin
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: removing ftp
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: removing klogin
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: removing kshell
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: removing ntalk
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: removing printer
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: removing rsync
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: removing telnet
+2x - <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: removing time
+- <NUM> <NUM>.<NUM> tbird-admin<NUM> Nov <NUM> <TIME> local@tbird-admin<NUM> xinetd[<NUM>]: xinetd Version <NUM>.<NUM> started with libwrap loadavg options compiled in.
+- <NUM> <NUM>.<NUM> eadmin<NUM> Nov <NUM> <TIME> src@eadmin<NUM> sendmail[<NUM>]: jA<NUM>JBVPb<NUM>: from=root, size=<NUM>, class=<NUM>, nrcpts=<NUM>, msgid=<<NUM>.jA<NUM>JBVPb<NUM>@eadmin<NUM>>, relay=#<NUM>#@localhost
+- <NUM> <NUM>.<NUM> eadmin<NUM> Nov <NUM> <TIME> src@eadmin<NUM> sendmail[<NUM>]: jA<NUM>JBVPb<NUM>: to=root, ctladdr=root (<NUM>/<NUM>), delay=<TIME>, xdelay=<TIME>, mailer=relay, pri=<NUM>, relay=[<IP>] [<IP>], dsn=<NUM>.<NUM>, stat=Deferred: Connection refused by [<IP>]
+- <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> sendmail[<NUM>]: jA<NUM>JBWxH<NUM>: from=root, size=<NUM>, class=<NUM>, nrcpts=<NUM>, msgid=<<NUM>.jA<NUM>JBWxH<NUM>@aadmin<NUM>>, relay=#<NUM>#@localhost
+- <NUM> <NUM>.<NUM> aadmin<NUM> Nov <NUM> <TIME> src@aadmin<NUM> sendmail[<NUM>]: jA<NUM>JBWxH<NUM>: to=root, ctladdr=root (<NUM>/<NUM>), delay=<TIME>, xdelay=<TIME>, mailer=relay, pri=<NUM>, relay=[<IP>] [<IP>], dsn=<NUM>.<NUM>, stat=Deferred: Connection refused by [<IP>]
+- <NUM> <NUM>.<NUM> badmin<NUM> Nov <NUM> <TIME> src@badmin<NUM> sendmail[<NUM>]: jA<NUM>JBWEr<NUM>: from=root, size=<NUM>, class=<NUM>, nrcpts=<NUM>, msgid=<<NUM>.jA<NUM>JBWEr<NUM>@badmin<NUM>>, relay=#<NUM>#@localhost
+- <NUM> <NUM>.<NUM> badmin<NUM> Nov <NUM> <TIME> src@badmin<NUM> sendmail[<NUM>]: jA<NUM>JBWEr<NUM>: to=root, ctladdr=root (<NUM>/<NUM>), delay=<TIME>, xdelay=<TIME>, mailer=relay, pri=<NUM>, relay=[<IP>] [<IP>], dsn=<NUM>.<NUM>, stat=Deferred: Connection refused by [<IP>]
+- <NUM> <NUM>.<NUM> cadmin<NUM> Nov <NUM> <TIME> src@cadmin<NUM> sendmail[<NUM>]: jA<NUM>JBXgf<NUM>: from=root, size=<NUM>, class=<NUM>, nrcpts=<NUM>, msgid=<<NUM>.jA<NUM>JBXgf<NUM>@cadmin<NUM>>, relay=#<NUM>#@localhost
+- <NUM> <NUM>.<NUM> cadmin<NUM> Nov <NUM> <TIME> src@cadmin<NUM> sendmail[<NUM>]: jA<NUM>JBXgf<NUM>: to=root, ctladdr=root (<NUM>/<NUM>), delay=<TIME>, xdelay=<TIME>, mailer=relay, pri=<NUM>, relay=[<IP>] [<IP>], dsn=<NUM>.<NUM>, stat=Deferred: Connection refused by [<IP>]
+- <NUM> <NUM>.<NUM> dadmin<NUM> Nov <NUM> <TIME> src@dadmin<NUM> sendmail[<NUM>]: jA<NUM>JBXVI<NUM>: from=root, size=<NUM>, class=<NUM>, nrcpts=<NUM>, msgid=<<NUM>.jA<NUM>JBXVI<NUM>@dadmin<NUM>>, relay=#<NUM>#@localhost
+- <NUM> <NUM>.<NUM> dadmin<NUM> Nov <NUM> <TIME> src@dadmin<NUM> sendmail[<NUM>]: jA<NUM>JBXVI<NUM>: to=root, ctladdr=root (<NUM>/<NUM>), delay=<TIME>, xdelay=<TIME>, mailer=relay, pri=<NUM>, relay=[<IP>] [<IP>], dsn=<NUM>.<NUM>, stat=Deferred: Connection refused by [<IP>]
+- <NUM> <NUM>.<NUM> an<NUM> Nov <NUM> <TIME> an<NUM>/an<NUM> ntpd[<NUM>]: synchronized to <IP>, stratum <NUM>
+- <NUM> <NUM>.<NUM> en<NUM> Nov <NUM> <TIME> en<NUM>/en<NUM> smartd[<NUM>]: Device: <PATH>, Temperature changed -<NUM> Celsius to <NUM> Celsius since last report
+- <NUM> <NUM>.<NUM> cn<NUM> Nov <NUM> <TIME> cn<NUM>/cn<NUM> ntpd[<NUM>]: synchronized to <IP>, stratum <NUM>

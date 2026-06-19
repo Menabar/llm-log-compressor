@@ -1,0 +1,1304 @@
+[
+  {
+    "dataset": "BGL",
+    "raw_lines": 2000,
+    "raw_chars": 317150,
+    "levels": [
+      {
+        "level": "conservative",
+        "patterns": 411,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 141671,
+                "after": 33249,
+                "saved_tokens": 108422,
+                "pct_reduced": 76.5,
+                "cost_before": 0.3541775,
+                "cost_after": 0.0831225
+              },
+              {
+                "model": "anthropic",
+                "before": 154322,
+                "after": 34993,
+                "saved_tokens": 119329,
+                "pct_reduced": 77.3,
+                "cost_before": 0.7716099999999999,
+                "cost_after": 0.174965
+              },
+              {
+                "model": "qwen",
+                "before": 204212,
+                "after": 33643,
+                "saved_tokens": 170569,
+                "pct_reduced": 83.5,
+                "cost_before": 0.0612636,
+                "cost_after": 0.0100929
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 141671,
+                "after": 103905,
+                "saved_tokens": 37766,
+                "pct_reduced": 26.7,
+                "cost_before": 0.3541775,
+                "cost_after": 0.2597625
+              },
+              {
+                "model": "anthropic",
+                "before": 154322,
+                "after": 108969,
+                "saved_tokens": 45353,
+                "pct_reduced": 29.4,
+                "cost_before": 0.7716099999999999,
+                "cost_after": 0.544845
+              },
+              {
+                "model": "qwen",
+                "before": 204212,
+                "after": 105259,
+                "saved_tokens": 98953,
+                "pct_reduced": 48.5,
+                "cost_before": 0.0612636,
+                "cost_after": 0.0315777
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "moderate",
+        "patterns": 411,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 141671,
+                "after": 33229,
+                "saved_tokens": 108442,
+                "pct_reduced": 76.5,
+                "cost_before": 0.3541775,
+                "cost_after": 0.08307250000000001
+              },
+              {
+                "model": "anthropic",
+                "before": 154322,
+                "after": 34956,
+                "saved_tokens": 119366,
+                "pct_reduced": 77.3,
+                "cost_before": 0.7716099999999999,
+                "cost_after": 0.17478
+              },
+              {
+                "model": "qwen",
+                "before": 204212,
+                "after": 33612,
+                "saved_tokens": 170600,
+                "pct_reduced": 83.5,
+                "cost_before": 0.0612636,
+                "cost_after": 0.0100836
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 141671,
+                "after": 103885,
+                "saved_tokens": 37786,
+                "pct_reduced": 26.7,
+                "cost_before": 0.3541775,
+                "cost_after": 0.2597125
+              },
+              {
+                "model": "anthropic",
+                "before": 154322,
+                "after": 108926,
+                "saved_tokens": 45396,
+                "pct_reduced": 29.4,
+                "cost_before": 0.7716099999999999,
+                "cost_after": 0.54463
+              },
+              {
+                "model": "qwen",
+                "before": 204212,
+                "after": 105214,
+                "saved_tokens": 98998,
+                "pct_reduced": 48.5,
+                "cost_before": 0.0612636,
+                "cost_after": 0.0315642
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "aggressive",
+        "patterns": 411,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 141671,
+                "after": 33262,
+                "saved_tokens": 108409,
+                "pct_reduced": 76.5,
+                "cost_before": 0.3541775,
+                "cost_after": 0.083155
+              },
+              {
+                "model": "anthropic",
+                "before": 154322,
+                "after": 35015,
+                "saved_tokens": 119307,
+                "pct_reduced": 77.3,
+                "cost_before": 0.7716099999999999,
+                "cost_after": 0.17507499999999998
+              },
+              {
+                "model": "qwen",
+                "before": 204212,
+                "after": 33672,
+                "saved_tokens": 170540,
+                "pct_reduced": 83.5,
+                "cost_before": 0.0612636,
+                "cost_after": 0.0101016
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 141671,
+                "after": 104065,
+                "saved_tokens": 37606,
+                "pct_reduced": 26.5,
+                "cost_before": 0.3541775,
+                "cost_after": 0.2601625
+              },
+              {
+                "model": "anthropic",
+                "before": 154322,
+                "after": 109287,
+                "saved_tokens": 45035,
+                "pct_reduced": 29.2,
+                "cost_before": 0.7716099999999999,
+                "cost_after": 0.546435
+              },
+              {
+                "model": "qwen",
+                "before": 204212,
+                "after": 105577,
+                "saved_tokens": 98635,
+                "pct_reduced": 48.3,
+                "cost_before": 0.0612636,
+                "cost_after": 0.0316731
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dataset": "HDFS",
+    "raw_lines": 2001,
+    "raw_chars": 287848,
+    "levels": [
+      {
+        "level": "conservative",
+        "patterns": 30,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 96898,
+                "after": 1920,
+                "saved_tokens": 94978,
+                "pct_reduced": 98,
+                "cost_before": 0.242245,
+                "cost_after": 0.0048000000000000004
+              },
+              {
+                "model": "anthropic",
+                "before": 100909,
+                "after": 2011,
+                "saved_tokens": 98898,
+                "pct_reduced": 98,
+                "cost_before": 0.504545,
+                "cost_after": 0.010055000000000001
+              },
+              {
+                "model": "qwen",
+                "before": 165589,
+                "after": 1953,
+                "saved_tokens": 163636,
+                "pct_reduced": 98.8,
+                "cost_before": 0.0496767,
+                "cost_after": 0.0005859
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 96898,
+                "after": 54447,
+                "saved_tokens": 42451,
+                "pct_reduced": 43.8,
+                "cost_before": 0.242245,
+                "cost_after": 0.1361175
+              },
+              {
+                "model": "anthropic",
+                "before": 100909,
+                "after": 59558,
+                "saved_tokens": 41351,
+                "pct_reduced": 41,
+                "cost_before": 0.504545,
+                "cost_after": 0.29779
+              },
+              {
+                "model": "qwen",
+                "before": 165589,
+                "after": 54661,
+                "saved_tokens": 110928,
+                "pct_reduced": 67,
+                "cost_before": 0.0496767,
+                "cost_after": 0.0163983
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "moderate",
+        "patterns": 30,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 96898,
+                "after": 1920,
+                "saved_tokens": 94978,
+                "pct_reduced": 98,
+                "cost_before": 0.242245,
+                "cost_after": 0.0048000000000000004
+              },
+              {
+                "model": "anthropic",
+                "before": 100909,
+                "after": 2011,
+                "saved_tokens": 98898,
+                "pct_reduced": 98,
+                "cost_before": 0.504545,
+                "cost_after": 0.010055000000000001
+              },
+              {
+                "model": "qwen",
+                "before": 165589,
+                "after": 1953,
+                "saved_tokens": 163636,
+                "pct_reduced": 98.8,
+                "cost_before": 0.0496767,
+                "cost_after": 0.0005859
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 96898,
+                "after": 54447,
+                "saved_tokens": 42451,
+                "pct_reduced": 43.8,
+                "cost_before": 0.242245,
+                "cost_after": 0.1361175
+              },
+              {
+                "model": "anthropic",
+                "before": 100909,
+                "after": 59558,
+                "saved_tokens": 41351,
+                "pct_reduced": 41,
+                "cost_before": 0.504545,
+                "cost_after": 0.29779
+              },
+              {
+                "model": "qwen",
+                "before": 165589,
+                "after": 54661,
+                "saved_tokens": 110928,
+                "pct_reduced": 67,
+                "cost_before": 0.0496767,
+                "cost_after": 0.0163983
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "aggressive",
+        "patterns": 30,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 96898,
+                "after": 1898,
+                "saved_tokens": 95000,
+                "pct_reduced": 98,
+                "cost_before": 0.242245,
+                "cost_after": 0.004745
+              },
+              {
+                "model": "anthropic",
+                "before": 100909,
+                "after": 1979,
+                "saved_tokens": 98930,
+                "pct_reduced": 98,
+                "cost_before": 0.504545,
+                "cost_after": 0.009895
+              },
+              {
+                "model": "qwen",
+                "before": 165589,
+                "after": 1931,
+                "saved_tokens": 163658,
+                "pct_reduced": 98.8,
+                "cost_before": 0.0496767,
+                "cost_after": 0.0005792999999999999
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 96898,
+                "after": 53486,
+                "saved_tokens": 43412,
+                "pct_reduced": 44.8,
+                "cost_before": 0.242245,
+                "cost_after": 0.133715
+              },
+              {
+                "model": "anthropic",
+                "before": 100909,
+                "after": 57897,
+                "saved_tokens": 43012,
+                "pct_reduced": 42.6,
+                "cost_before": 0.504545,
+                "cost_after": 0.289485
+              },
+              {
+                "model": "qwen",
+                "before": 165589,
+                "after": 53700,
+                "saved_tokens": 111889,
+                "pct_reduced": 67.6,
+                "cost_before": 0.0496767,
+                "cost_after": 0.01611
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dataset": "Hadoop",
+    "raw_lines": 2000,
+    "raw_chars": 384948,
+    "levels": [
+      {
+        "level": "conservative",
+        "patterns": 139,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 128687,
+                "after": 7079,
+                "saved_tokens": 121608,
+                "pct_reduced": 94.5,
+                "cost_before": 0.3217175,
+                "cost_after": 0.0176975
+              },
+              {
+                "model": "anthropic",
+                "before": 140257,
+                "after": 8394,
+                "saved_tokens": 131863,
+                "pct_reduced": 94,
+                "cost_before": 0.7012849999999999,
+                "cost_after": 0.04197
+              },
+              {
+                "model": "qwen",
+                "before": 172379,
+                "after": 7144,
+                "saved_tokens": 165235,
+                "pct_reduced": 95.9,
+                "cost_before": 0.0517137,
+                "cost_after": 0.0021432
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 128687,
+                "after": 98341,
+                "saved_tokens": 30346,
+                "pct_reduced": 23.6,
+                "cost_before": 0.3217175,
+                "cost_after": 0.2458525
+              },
+              {
+                "model": "anthropic",
+                "before": 140257,
+                "after": 114744,
+                "saved_tokens": 25513,
+                "pct_reduced": 18.2,
+                "cost_before": 0.7012849999999999,
+                "cost_after": 0.57372
+              },
+              {
+                "model": "qwen",
+                "before": 172379,
+                "after": 101421,
+                "saved_tokens": 70958,
+                "pct_reduced": 41.2,
+                "cost_before": 0.0517137,
+                "cost_after": 0.030426299999999996
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "moderate",
+        "patterns": 139,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 128687,
+                "after": 7035,
+                "saved_tokens": 121652,
+                "pct_reduced": 94.5,
+                "cost_before": 0.3217175,
+                "cost_after": 0.0175875
+              },
+              {
+                "model": "anthropic",
+                "before": 140257,
+                "after": 8335,
+                "saved_tokens": 131922,
+                "pct_reduced": 94.1,
+                "cost_before": 0.7012849999999999,
+                "cost_after": 0.041675000000000004
+              },
+              {
+                "model": "qwen",
+                "before": 172379,
+                "after": 7100,
+                "saved_tokens": 165279,
+                "pct_reduced": 95.9,
+                "cost_before": 0.0517137,
+                "cost_after": 0.00213
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 128687,
+                "after": 98015,
+                "saved_tokens": 30672,
+                "pct_reduced": 23.8,
+                "cost_before": 0.3217175,
+                "cost_after": 0.24503750000000002
+              },
+              {
+                "model": "anthropic",
+                "before": 140257,
+                "after": 114403,
+                "saved_tokens": 25854,
+                "pct_reduced": 18.4,
+                "cost_before": 0.7012849999999999,
+                "cost_after": 0.572015
+              },
+              {
+                "model": "qwen",
+                "before": 172379,
+                "after": 101095,
+                "saved_tokens": 71284,
+                "pct_reduced": 41.4,
+                "cost_before": 0.0517137,
+                "cost_after": 0.0303285
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "aggressive",
+        "patterns": 135,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 128687,
+                "after": 6735,
+                "saved_tokens": 121952,
+                "pct_reduced": 94.8,
+                "cost_before": 0.3217175,
+                "cost_after": 0.0168375
+              },
+              {
+                "model": "anthropic",
+                "before": 140257,
+                "after": 7809,
+                "saved_tokens": 132448,
+                "pct_reduced": 94.4,
+                "cost_before": 0.7012849999999999,
+                "cost_after": 0.039044999999999996
+              },
+              {
+                "model": "qwen",
+                "before": 172379,
+                "after": 6735,
+                "saved_tokens": 165644,
+                "pct_reduced": 96.1,
+                "cost_before": 0.0517137,
+                "cost_after": 0.0020204999999999997
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 128687,
+                "after": 94314,
+                "saved_tokens": 34373,
+                "pct_reduced": 26.7,
+                "cost_before": 0.3217175,
+                "cost_after": 0.235785
+              },
+              {
+                "model": "anthropic",
+                "before": 140257,
+                "after": 107821,
+                "saved_tokens": 32436,
+                "pct_reduced": 23.1,
+                "cost_before": 0.7012849999999999,
+                "cost_after": 0.539105
+              },
+              {
+                "model": "qwen",
+                "before": 172379,
+                "after": 94226,
+                "saved_tokens": 78153,
+                "pct_reduced": 45.3,
+                "cost_before": 0.0517137,
+                "cost_after": 0.0282678
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dataset": "OpenStack",
+    "raw_lines": 2000,
+    "raw_chars": 595119,
+    "levels": [
+      {
+        "level": "conservative",
+        "patterns": 59,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 298337,
+                "after": 3709,
+                "saved_tokens": 294628,
+                "pct_reduced": 98.8,
+                "cost_before": 0.7458425000000001,
+                "cost_after": 0.0092725
+              },
+              {
+                "model": "anthropic",
+                "before": 298108,
+                "after": 3990,
+                "saved_tokens": 294118,
+                "pct_reduced": 98.7,
+                "cost_before": 1.49054,
+                "cost_after": 0.01995
+              },
+              {
+                "model": "qwen",
+                "before": 397482,
+                "after": 3757,
+                "saved_tokens": 393725,
+                "pct_reduced": 99.1,
+                "cost_before": 0.11924459999999999,
+                "cost_after": 0.0011271
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 298337,
+                "after": 89565,
+                "saved_tokens": 208772,
+                "pct_reduced": 70,
+                "cost_before": 0.7458425000000001,
+                "cost_after": 0.22391250000000001
+              },
+              {
+                "model": "anthropic",
+                "before": 298108,
+                "after": 96278,
+                "saved_tokens": 201830,
+                "pct_reduced": 67.7,
+                "cost_before": 1.49054,
+                "cost_after": 0.48139
+              },
+              {
+                "model": "qwen",
+                "before": 397482,
+                "after": 89542,
+                "saved_tokens": 307940,
+                "pct_reduced": 77.5,
+                "cost_before": 0.11924459999999999,
+                "cost_after": 0.026862599999999997
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "moderate",
+        "patterns": 45,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 298337,
+                "after": 2575,
+                "saved_tokens": 295762,
+                "pct_reduced": 99.1,
+                "cost_before": 0.7458425000000001,
+                "cost_after": 0.0064375000000000005
+              },
+              {
+                "model": "anthropic",
+                "before": 298108,
+                "after": 2758,
+                "saved_tokens": 295350,
+                "pct_reduced": 99.1,
+                "cost_before": 1.49054,
+                "cost_after": 0.01379
+              },
+              {
+                "model": "qwen",
+                "before": 397482,
+                "after": 2613,
+                "saved_tokens": 394869,
+                "pct_reduced": 99.3,
+                "cost_before": 0.11924459999999999,
+                "cost_after": 0.0007838999999999999
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 298337,
+                "after": 81207,
+                "saved_tokens": 217130,
+                "pct_reduced": 72.8,
+                "cost_before": 0.7458425000000001,
+                "cost_after": 0.20301750000000002
+              },
+              {
+                "model": "anthropic",
+                "before": 298108,
+                "after": 87417,
+                "saved_tokens": 210691,
+                "pct_reduced": 70.7,
+                "cost_before": 1.49054,
+                "cost_after": 0.43708499999999995
+              },
+              {
+                "model": "qwen",
+                "before": 397482,
+                "after": 81184,
+                "saved_tokens": 316298,
+                "pct_reduced": 79.6,
+                "cost_before": 0.11924459999999999,
+                "cost_after": 0.0243552
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "aggressive",
+        "patterns": 45,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 298337,
+                "after": 2583,
+                "saved_tokens": 295754,
+                "pct_reduced": 99.1,
+                "cost_before": 0.7458425000000001,
+                "cost_after": 0.0064575
+              },
+              {
+                "model": "anthropic",
+                "before": 298108,
+                "after": 2763,
+                "saved_tokens": 295345,
+                "pct_reduced": 99.1,
+                "cost_before": 1.49054,
+                "cost_after": 0.013815
+              },
+              {
+                "model": "qwen",
+                "before": 397482,
+                "after": 2621,
+                "saved_tokens": 394861,
+                "pct_reduced": 99.3,
+                "cost_before": 0.11924459999999999,
+                "cost_after": 0.0007863
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 298337,
+                "after": 81305,
+                "saved_tokens": 217032,
+                "pct_reduced": 72.7,
+                "cost_before": 0.7458425000000001,
+                "cost_after": 0.2032625
+              },
+              {
+                "model": "anthropic",
+                "before": 298108,
+                "after": 87466,
+                "saved_tokens": 210642,
+                "pct_reduced": 70.7,
+                "cost_before": 1.49054,
+                "cost_after": 0.43733
+              },
+              {
+                "model": "qwen",
+                "before": 397482,
+                "after": 81282,
+                "saved_tokens": 316200,
+                "pct_reduced": 79.6,
+                "cost_before": 0.11924459999999999,
+                "cost_after": 0.024384599999999996
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dataset": "Thunderbird",
+    "raw_lines": 2000,
+    "raw_chars": 325192,
+    "levels": [
+      {
+        "level": "conservative",
+        "patterns": 245,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 130560,
+                "after": 15179,
+                "saved_tokens": 115381,
+                "pct_reduced": 88.4,
+                "cost_before": 0.3264,
+                "cost_after": 0.0379475
+              },
+              {
+                "model": "anthropic",
+                "before": 130588,
+                "after": 15813,
+                "saved_tokens": 114775,
+                "pct_reduced": 87.9,
+                "cost_before": 0.6529400000000001,
+                "cost_after": 0.079065
+              },
+              {
+                "model": "qwen",
+                "before": 177633,
+                "after": 15082,
+                "saved_tokens": 162551,
+                "pct_reduced": 91.5,
+                "cost_before": 0.0532899,
+                "cost_after": 0.0045246
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 130560,
+                "after": 89433,
+                "saved_tokens": 41127,
+                "pct_reduced": 31.5,
+                "cost_before": 0.3264,
+                "cost_after": 0.2235825
+              },
+              {
+                "model": "anthropic",
+                "before": 130588,
+                "after": 95810,
+                "saved_tokens": 34778,
+                "pct_reduced": 26.6,
+                "cost_before": 0.6529400000000001,
+                "cost_after": 0.47905000000000003
+              },
+              {
+                "model": "qwen",
+                "before": 177633,
+                "after": 89699,
+                "saved_tokens": 87934,
+                "pct_reduced": 49.5,
+                "cost_before": 0.0532899,
+                "cost_after": 0.026909699999999998
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "moderate",
+        "patterns": 245,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 130560,
+                "after": 14935,
+                "saved_tokens": 115625,
+                "pct_reduced": 88.6,
+                "cost_before": 0.3264,
+                "cost_after": 0.0373375
+              },
+              {
+                "model": "anthropic",
+                "before": 130588,
+                "after": 15547,
+                "saved_tokens": 115041,
+                "pct_reduced": 88.1,
+                "cost_before": 0.6529400000000001,
+                "cost_after": 0.077735
+              },
+              {
+                "model": "qwen",
+                "before": 177633,
+                "after": 14840,
+                "saved_tokens": 162793,
+                "pct_reduced": 91.6,
+                "cost_before": 0.0532899,
+                "cost_after": 0.004452
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 130560,
+                "after": 89172,
+                "saved_tokens": 41388,
+                "pct_reduced": 31.7,
+                "cost_before": 0.3264,
+                "cost_after": 0.22293000000000002
+              },
+              {
+                "model": "anthropic",
+                "before": 130588,
+                "after": 95540,
+                "saved_tokens": 35048,
+                "pct_reduced": 26.8,
+                "cost_before": 0.6529400000000001,
+                "cost_after": 0.4777
+              },
+              {
+                "model": "qwen",
+                "before": 177633,
+                "after": 89440,
+                "saved_tokens": 88193,
+                "pct_reduced": 49.6,
+                "cost_before": 0.0532899,
+                "cost_after": 0.026832
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "aggressive",
+        "patterns": 245,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 130560,
+                "after": 14962,
+                "saved_tokens": 115598,
+                "pct_reduced": 88.5,
+                "cost_before": 0.3264,
+                "cost_after": 0.037405
+              },
+              {
+                "model": "anthropic",
+                "before": 130588,
+                "after": 15572,
+                "saved_tokens": 115016,
+                "pct_reduced": 88.1,
+                "cost_before": 0.6529400000000001,
+                "cost_after": 0.07786
+              },
+              {
+                "model": "qwen",
+                "before": 177633,
+                "after": 14868,
+                "saved_tokens": 162765,
+                "pct_reduced": 91.6,
+                "cost_before": 0.0532899,
+                "cost_after": 0.0044604
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 130560,
+                "after": 90253,
+                "saved_tokens": 40307,
+                "pct_reduced": 30.9,
+                "cost_before": 0.3264,
+                "cost_after": 0.2256325
+              },
+              {
+                "model": "anthropic",
+                "before": 130588,
+                "after": 96618,
+                "saved_tokens": 33970,
+                "pct_reduced": 26,
+                "cost_before": 0.6529400000000001,
+                "cost_after": 0.48308999999999996
+              },
+              {
+                "model": "qwen",
+                "before": 177633,
+                "after": 90522,
+                "saved_tokens": 87111,
+                "pct_reduced": 49,
+                "cost_before": 0.0532899,
+                "cost_after": 0.0271566
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dataset": "Windows",
+    "raw_lines": 2000,
+    "raw_chars": 285433,
+    "levels": [
+      {
+        "level": "conservative",
+        "patterns": 68,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 86625,
+                "after": 2097,
+                "saved_tokens": 84528,
+                "pct_reduced": 97.6,
+                "cost_before": 0.2165625,
+                "cost_after": 0.0052425
+              },
+              {
+                "model": "anthropic",
+                "before": 88676,
+                "after": 2307,
+                "saved_tokens": 86369,
+                "pct_reduced": 97.4,
+                "cost_before": 0.44338,
+                "cost_after": 0.011535
+              },
+              {
+                "model": "qwen",
+                "before": 118907,
+                "after": 2138,
+                "saved_tokens": 116769,
+                "pct_reduced": 98.2,
+                "cost_before": 0.0356721,
+                "cost_after": 0.0006414
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 86625,
+                "after": 56142,
+                "saved_tokens": 30483,
+                "pct_reduced": 35.2,
+                "cost_before": 0.2165625,
+                "cost_after": 0.140355
+              },
+              {
+                "model": "anthropic",
+                "before": 88676,
+                "after": 63996,
+                "saved_tokens": 24680,
+                "pct_reduced": 27.8,
+                "cost_before": 0.44338,
+                "cost_after": 0.31998
+              },
+              {
+                "model": "qwen",
+                "before": 118907,
+                "after": 57747,
+                "saved_tokens": 61160,
+                "pct_reduced": 51.4,
+                "cost_before": 0.0356721,
+                "cost_after": 0.0173241
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "moderate",
+        "patterns": 68,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 86625,
+                "after": 1853,
+                "saved_tokens": 84772,
+                "pct_reduced": 97.9,
+                "cost_before": 0.2165625,
+                "cost_after": 0.0046325
+              },
+              {
+                "model": "anthropic",
+                "before": 88676,
+                "after": 2058,
+                "saved_tokens": 86618,
+                "pct_reduced": 97.7,
+                "cost_before": 0.44338,
+                "cost_after": 0.01029
+              },
+              {
+                "model": "qwen",
+                "before": 118907,
+                "after": 1902,
+                "saved_tokens": 117005,
+                "pct_reduced": 98.4,
+                "cost_before": 0.0356721,
+                "cost_after": 0.0005706
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 86625,
+                "after": 55896,
+                "saved_tokens": 30729,
+                "pct_reduced": 35.5,
+                "cost_before": 0.2165625,
+                "cost_after": 0.13974
+              },
+              {
+                "model": "anthropic",
+                "before": 88676,
+                "after": 63746,
+                "saved_tokens": 24930,
+                "pct_reduced": 28.1,
+                "cost_before": 0.44338,
+                "cost_after": 0.31872999999999996
+              },
+              {
+                "model": "qwen",
+                "before": 118907,
+                "after": 57509,
+                "saved_tokens": 61398,
+                "pct_reduced": 51.6,
+                "cost_before": 0.0356721,
+                "cost_after": 0.0172527
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "aggressive",
+        "patterns": 66,
+        "variants": [
+          {
+            "order": "unordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 86625,
+                "after": 1862,
+                "saved_tokens": 84763,
+                "pct_reduced": 97.9,
+                "cost_before": 0.2165625,
+                "cost_after": 0.004654999999999999
+              },
+              {
+                "model": "anthropic",
+                "before": 88676,
+                "after": 2030,
+                "saved_tokens": 86646,
+                "pct_reduced": 97.7,
+                "cost_before": 0.44338,
+                "cost_after": 0.010150000000000001
+              },
+              {
+                "model": "qwen",
+                "before": 118907,
+                "after": 1892,
+                "saved_tokens": 117015,
+                "pct_reduced": 98.4,
+                "cost_before": 0.0356721,
+                "cost_after": 0.0005676
+              }
+            ]
+          },
+          {
+            "order": "ordered",
+            "models": [
+              {
+                "model": "openai",
+                "before": 86625,
+                "after": 58051,
+                "saved_tokens": 28574,
+                "pct_reduced": 33,
+                "cost_before": 0.2165625,
+                "cost_after": 0.1451275
+              },
+              {
+                "model": "anthropic",
+                "before": 88676,
+                "after": 64180,
+                "saved_tokens": 24496,
+                "pct_reduced": 27.6,
+                "cost_before": 0.44338,
+                "cost_after": 0.3209
+              },
+              {
+                "model": "qwen",
+                "before": 118907,
+                "after": 58546,
+                "saved_tokens": 60361,
+                "pct_reduced": 50.8,
+                "cost_before": 0.0356721,
+                "cost_after": 0.0175638
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+# Windows_2k.log | level=conservative
+# 2000 lines -> 68 groups (ratio 0.034)
+
+2x <TS>, Info                  CBS    Loaded Servicing Stack v<NUM>.<NUM> with Core: <PATH>
+6x <TS>, Info                  CSI    <EMAIL> WcpInitialize (wcp.dll version <IP>) called (stack @<HEX> @<HEX> @<HEX> @<HEX> @<HEX> @<HEX>)
+2x <TS>, Info                  CBS    Ending TrustedInstaller initialization.
+2x <TS>, Info                  CBS    Starting the TrustedInstaller main loop.
+2x <TS>, Info                  CBS    TrustedInstaller service starts successfully.
+2x <TS>, Info                  CBS    SQM: Initializing online with Windows opt-in: False
+2x <TS>, Info                  CBS    SQM: Cleaning up report files older than <NUM> days.
+2x <TS>, Info                  CBS    SQM: Requesting upload of all unsent reports.
+2x <TS>, Info                  CBS    SQM: Failed to start upload with file pattern: <PATH> flags: <HEX> [HRESULT = <HEX> - E_FAIL]
+2x <TS>, Info                  CBS    SQM: Failed to start standard sample upload. [HRESULT = <HEX> - E_FAIL]
+2x <TS>, Info                  CBS    SQM: Queued <NUM> file(s) for upload with pattern: <PATH> flags: <HEX>
+2x <TS>, Info                  CBS    SQM: Warning: Failed to upload all unsent reports. [HRESULT = <HEX> - E_FAIL]
+2x <TS>, Info                  CBS    No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.
+2x <TS>, Info                  CBS    NonStart: Checking to ensure startup processing was not required.
+2x <TS>, Info                  CSI    <NUM> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <NUM>) (flags = <NUM>, progress = NULL, phase = <NUM>, pdwDisposition = @<HEX>
+2x <TS>, Info                  CSI    <NUM> Creating NT transaction (seq <NUM>), objectname [<NUM>]"(null)"
+2x <TS>, Info                  CSI    <NUM> Created NT transaction (seq <NUM>) result <HEX>, handle @<HEX>
+3x <TS>, Info                  CSI    <EMAIL> CSI perf trace:
+2x <TS>, Info                  CBS    NonStart: Success, startup processing not required as expected.
+2x <TS>, Info                  CBS    Startup processing thread terminated normally
+<TS>, Info                  CSI    <NUM> CSI Store <NUM> (<HEX>) initialized
+608x <TS>, Info                  CBS    Session: <NUM>_<NUM> initialized by client WindowsUpdateAgent.
+280x <TS>, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+224x <TS>, Info                  CBS    Expecting attribute name [HRESULT = <HEX> - CBS_E_MANIFEST_INVALID_ITEM]
+224x <TS>, Info                  CBS    Failed to get next element [HRESULT = <HEX> - CBS_E_MANIFEST_INVALID_ITEM]
+18x <TS>, Info                  CBS    Failed to internally open package. [HRESULT = <HEX> - CBS_E_INVALID_PACKAGE]
+540x <TS>, Info                  CBS    Read out cached package applicability for package: Package_for_KB<NUM>~<HASH>~amd<NUM>~~<IP>, ApplicableState: <NUM>, CurrentState:<NUM>
+2x <TS>, Info                  CBS    Read out cached package applicability for package: Microsoft-Windows-PlatformUpdate-Win<NUM>-SRV<NUM>R<NUM>-Package-TopLevel~<HASH>~amd<NUM>~~<NUM>.<NUM>, ApplicableState: <NUM>, CurrentState:<NUM>
+8x <TS>, Info                  CBS    Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~<HASH>~amd<NUM>~~<NUM>.<NUM>, ApplicableState: <NUM>, CurrentState:<NUM>
+2x <TS>, Info                  CBS    Read out cached package applicability for package: Microsoft-Windows-RDP-BlueIP-Package-TopLevel~<HASH>~amd<NUM>~~<NUM>.<NUM>, ApplicableState: <NUM>, CurrentState:<NUM>
+2x <TS>, Info                  CBS    Read out cached package applicability for package: Microsoft-Windows-RDP-WinIP-Package-TopLevel~<HASH>~amd<NUM>~~<NUM>.<NUM>, ApplicableState: <NUM>, CurrentState:<NUM>
+2x <TS>, Info                  CBS    Read out cached package applicability for package: Microsoft-Windows-Embedded-EmbeddedLockdown-Package-TopLevel~<HASH>~amd<NUM>~~<NUM>.<NUM>, ApplicableState: <NUM>, CurrentState:<NUM>
+<TS>, Info                  CBS    Read out cached package applicability for package: Package_for_RollupFix~<HASH>~amd<NUM>~~<NUM>.<NUM>, ApplicableState: <NUM>, CurrentState:<NUM>
+2x <TS>, Info                  CBS    Failed to create backup log cab. [HRESULT = <HEX> - ERROR_INVALID_FUNCTION]
+<TS>, Info                  CBS    Reboot mark refs incremented to: <NUM>
+<TS>, Info                  CBS    Scavenge: Starts
+<TS>, Info                  CSI    <EMAIL> CSI Transaction @<HEX> initialized for deployment engine {<UUID>} with flags <NUM> and client id [<NUM>]"TI<NUM>_<NUM>:<NUM>/"
+<TS>, Info                  CBS    Scavenge: Begin CSI Store
+<TS>, Info                  CSI    <NUM>a Performing <NUM> operations; <NUM> are not lock/unlock and follow:
+<TS>, Info                  CSI    <NUM>b Store coherency cookie matches last scavenge cookie, skipping scavenge.
+<TS>, Info                  CSI    <NUM>c ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=FALSE applyflags=<NUM>
+<TS>, Info                  CSI    <NUM>d Creating NT transaction (seq <NUM>), objectname [<NUM>]"(null)"
+<TS>, Info                  CSI    <NUM>e Created NT transaction (seq <NUM>) result <HEX>, handle @<HEX>
+<TS>, Info                  CBS    Scavenge: Completed, disposition: <NUM>X<NUM>
+<TS>, Info                  CSI    <EMAIL> CSI Transaction @<HEX> destroyed
+<TS>, Info                  CBS    Reboot mark refs: <NUM>
+<TS>, Info                  CBS    Idle processing thread terminated normally
+<TS>, Info                  CBS    Ending the TrustedInstaller main loop.
+<TS>, Info                  CBS    Starting TrustedInstaller finalization.
+<TS>, Info                  CBS    Ending TrustedInstaller finalization.
+<TS>, Info                  CBS    Starting TrustedInstaller initialization.
+<TS>, Info                  CBS    Loading offline registry hive: SOFTWARE, into registry key '{<UUID>}GLOBALROOT<PATH>' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy<NUM>\Windows\System<NUM>\config\SOFTWARE'.
+<TS>, Info                  CBS    Loading offline registry hive: SYSTEM, into registry key '{<UUID>}GLOBALROOT<PATH>' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy<NUM>\Windows\System<NUM>\config\SYSTEM'.
+<TS>, Info                  CBS    Loading offline registry hive: SECURITY, into registry key '{<UUID>}GLOBALROOT<PATH>' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy<NUM>\Windows\System<NUM>\config\SECURITY'.
+<TS>, Info                  CBS    Loading offline registry hive: SAM, into registry key '{<UUID>}GLOBALROOT<PATH>' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy<NUM>\Windows\System<NUM>\config\SAM'.
+<TS>, Info                  CBS    Loading offline registry hive: COMPONENTS, into registry key '{<UUID>}GLOBALROOT<PATH>' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy<NUM>\Windows\System<NUM>\config\COMPONENTS'.
+<TS>, Info                  CBS    Loading offline registry hive: DEFAULT, into registry key '{<UUID>}GLOBALROOT<PATH>' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy<NUM>\Windows\System<NUM>\config\DEFAULT'.
+<TS>, Info                  CBS    Loading offline registry hive: ntuser.dat, into registry key '{<UUID>}GLOBALROOT<PATH>' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy<NUM>\Users\default\ntuser.dat'.
+<TS>, Info                  CBS    Loading offline registry hive: schema.dat, into registry key '{<UUID>}GLOBALROOT<PATH>' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy<NUM>\Windows\system<NUM>\smi\store\Machine\schema.dat'.
+<TS>, Info                  CBS    Offline image is: read-only
+<TS>, Info                  CBS    Disabling manifest caching, because the image is not writeable.
+<TS>, Info                  CSI    <EMAIL> PopulateComponentFamiliesKey - Begin
+<TS>, Info                  CSI    <EMAIL> PopulateComponentFamiliesKey - End
+<TS>, Info                  CSI    <NUM>a CSI Store <NUM> (<HEX>) initialized
+<TS>, Info                  CBS    Session: <NUM>_<NUM> initialized by client SPP.
+8x <TS>, Info                  CBS    Unloading offline registry hive: {<UUID>}GLOBALROOT<PATH>
+<TS>, Info                  CSI    <NUM>b CSI Store <NUM> (<HEX>) initialized
+<TS>, Info                  CBS    Read out cached package applicability for package: Package_for_KB<NUM>~<HASH>~amd<NUM>~~<IP>, ApplicableState: <NUM>, CurrentState:<NUM>

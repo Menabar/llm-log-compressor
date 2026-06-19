@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Log Compression &mdash; Token Savings</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 15px/1.55 -apple-system, system-ui, sans-serif; margin: 2.5rem auto; max-width: 1040px; padding: 0 1.25rem; }
+  h1 { font-size: 1.5rem; margin: 0 0 .35rem; }
+  h2 { font-size: 1.05rem; margin: 1.75rem 0 .6rem; }
+  h2 .hint { font-weight: 400; font-size: .82rem; color: #888; }
+  .tabs { display: flex; gap: .4rem; border-bottom: 1px solid #ccc; margin-bottom: .5rem; }
+  .tab { font: inherit; padding: .45rem .9rem; border: none; background: none; cursor: pointer;
+         color: #777; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+  .tab.active { color: inherit; font-weight: 600; border-bottom-color: #4577d4; }
+  .page { display: none; }
+  .page.show { display: block; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { padding: .5rem .8rem; text-align: left; }
+  thead th { border-bottom: 2px solid currentColor; font-weight: 600; }
+  tbody td { border-bottom: 1px solid #e3e3e3; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.num .sub { color: #999; font-size: .82rem; }
+  td.grp { font-weight: 600; vertical-align: top; }
+  td.dataset { font-size: 1.02rem; border-left: 3px solid #4577d4; }
+  td.model { color: #666; }
+  td.good { color: #1a7f37; font-weight: 700; }
+  td.zero { color: #888; font-weight: 700; }
+  td.low { color: #b3261e; font-weight: 700; }
+  tr.spacer td { border: none; padding: .2rem; }
+  caption, .foot { text-align: left; color: #888; font-size: .85rem; margin-top: 1rem; }
+  @media (prefers-color-scheme: dark) {
+    td.model, .foot, h2 .hint { color: #9aa0a6; }
+    tbody td { border-color: #2c2c2c; }
+    .tabs { border-color: #333; }
+  }
+</style>
+</head>
+<body>
+  <h1>Log Compression &mdash; Token Savings</h1>
+  <div class="tabs">
+<button class="tab active" data-target="page-conservative">Conservative</button>
+<button class="tab" data-target="page-moderate">Moderate</button>
+<button class="tab" data-target="page-aggressive">Aggressive</button>
+  </div>
+<section id="page-conservative" class="page show">
+  <h2>Unordered <span class="hint">duplicates merged globally</span></h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Dataset</th>
+        <th>Size</th>
+        <th>Tokenizer</th>
+        <th>Raw Tokens</th>
+        <th>Compressed Tokens</th>
+        <th>Tokens Saved</th>
+        <th>% Reduced</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr><td rowspan="3" class="grp dataset">BGL</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">317,150 chars</span></td><td class="model">openai</td><td class="num">141,671<br><span class="sub">$0.35</span></td><td class="num">33,249<br><span class="sub">$0.0831</span></td><td class="num">108,422<br><span class="sub">$0.27</span></td><td class="num good">76.5%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">154,322<br><span class="sub">$0.77</span></td><td class="num">34,993<br><span class="sub">$0.17</span></td><td class="num">119,329<br><span class="sub">$0.60</span></td><td class="num good">77.3%</td></tr>
+<tr><td class="model">qwen</td><td class="num">204,212<br><span class="sub">$0.0613</span></td><td class="num">33,643<br><span class="sub">$0.0101</span></td><td class="num">170,569<br><span class="sub">$0.0512</span></td><td class="num good">83.5%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">HDFS</td><td rowspan="3" class="num">2,001 lines<br><span class="sub">287,848 chars</span></td><td class="model">openai</td><td class="num">96,898<br><span class="sub">$0.24</span></td><td class="num">1,920<br><span class="sub">$0.0048</span></td><td class="num">94,978<br><span class="sub">$0.24</span></td><td class="num good">98%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">100,909<br><span class="sub">$0.50</span></td><td class="num">2,011<br><span class="sub">$0.0101</span></td><td class="num">98,898<br><span class="sub">$0.49</span></td><td class="num good">98%</td></tr>
+<tr><td class="model">qwen</td><td class="num">165,589<br><span class="sub">$0.0497</span></td><td class="num">1,953<br><span class="sub">$0.0006</span></td><td class="num">163,636<br><span class="sub">$0.0491</span></td><td class="num good">98.8%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Hadoop</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">384,948 chars</span></td><td class="model">openai</td><td class="num">128,687<br><span class="sub">$0.32</span></td><td class="num">7,079<br><span class="sub">$0.0177</span></td><td class="num">121,608<br><span class="sub">$0.30</span></td><td class="num good">94.5%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">140,257<br><span class="sub">$0.70</span></td><td class="num">8,394<br><span class="sub">$0.0420</span></td><td class="num">131,863<br><span class="sub">$0.66</span></td><td class="num good">94%</td></tr>
+<tr><td class="model">qwen</td><td class="num">172,379<br><span class="sub">$0.0517</span></td><td class="num">7,144<br><span class="sub">$0.0021</span></td><td class="num">165,235<br><span class="sub">$0.0496</span></td><td class="num good">95.9%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">OpenStack</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">595,119 chars</span></td><td class="model">openai</td><td class="num">298,337<br><span class="sub">$0.75</span></td><td class="num">3,709<br><span class="sub">$0.0093</span></td><td class="num">294,628<br><span class="sub">$0.74</span></td><td class="num good">98.8%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">298,108<br><span class="sub">$1.49</span></td><td class="num">3,990<br><span class="sub">$0.0199</span></td><td class="num">294,118<br><span class="sub">$1.47</span></td><td class="num good">98.7%</td></tr>
+<tr><td class="model">qwen</td><td class="num">397,482<br><span class="sub">$0.12</span></td><td class="num">3,757<br><span class="sub">$0.0011</span></td><td class="num">393,725<br><span class="sub">$0.12</span></td><td class="num good">99.1%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Thunderbird</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">325,192 chars</span></td><td class="model">openai</td><td class="num">130,560<br><span class="sub">$0.33</span></td><td class="num">15,179<br><span class="sub">$0.0379</span></td><td class="num">115,381<br><span class="sub">$0.29</span></td><td class="num good">88.4%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">130,588<br><span class="sub">$0.65</span></td><td class="num">15,813<br><span class="sub">$0.0791</span></td><td class="num">114,775<br><span class="sub">$0.57</span></td><td class="num good">87.9%</td></tr>
+<tr><td class="model">qwen</td><td class="num">177,633<br><span class="sub">$0.0533</span></td><td class="num">15,082<br><span class="sub">$0.0045</span></td><td class="num">162,551<br><span class="sub">$0.0488</span></td><td class="num good">91.5%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Windows</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">285,433 chars</span></td><td class="model">openai</td><td class="num">86,625<br><span class="sub">$0.22</span></td><td class="num">2,097<br><span class="sub">$0.0052</span></td><td class="num">84,528<br><span class="sub">$0.21</span></td><td class="num good">97.6%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">88,676<br><span class="sub">$0.44</span></td><td class="num">2,307<br><span class="sub">$0.0115</span></td><td class="num">86,369<br><span class="sub">$0.43</span></td><td class="num good">97.4%</td></tr>
+<tr><td class="model">qwen</td><td class="num">118,907<br><span class="sub">$0.0357</span></td><td class="num">2,138<br><span class="sub">$0.0006</span></td><td class="num">116,769<br><span class="sub">$0.0350</span></td><td class="num good">98.2%</td></tr>
+    </tbody>
+  </table>
+  <h2>Ordered <span class="hint">original line order kept; only consecutive runs collapsed</span></h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Dataset</th>
+        <th>Size</th>
+        <th>Tokenizer</th>
+        <th>Raw Tokens</th>
+        <th>Compressed Tokens</th>
+        <th>Tokens Saved</th>
+        <th>% Reduced</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr><td rowspan="3" class="grp dataset">BGL</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">317,150 chars</span></td><td class="model">openai</td><td class="num">141,671<br><span class="sub">$0.35</span></td><td class="num">103,905<br><span class="sub">$0.26</span></td><td class="num">37,766<br><span class="sub">$0.0944</span></td><td class="num good">26.7%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">154,322<br><span class="sub">$0.77</span></td><td class="num">108,969<br><span class="sub">$0.54</span></td><td class="num">45,353<br><span class="sub">$0.23</span></td><td class="num good">29.4%</td></tr>
+<tr><td class="model">qwen</td><td class="num">204,212<br><span class="sub">$0.0613</span></td><td class="num">105,259<br><span class="sub">$0.0316</span></td><td class="num">98,953<br><span class="sub">$0.0297</span></td><td class="num good">48.5%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">HDFS</td><td rowspan="3" class="num">2,001 lines<br><span class="sub">287,848 chars</span></td><td class="model">openai</td><td class="num">96,898<br><span class="sub">$0.24</span></td><td class="num">54,447<br><span class="sub">$0.14</span></td><td class="num">42,451<br><span class="sub">$0.11</span></td><td class="num good">43.8%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">100,909<br><span class="sub">$0.50</span></td><td class="num">59,558<br><span class="sub">$0.30</span></td><td class="num">41,351<br><span class="sub">$0.21</span></td><td class="num good">41%</td></tr>
+<tr><td class="model">qwen</td><td class="num">165,589<br><span class="sub">$0.0497</span></td><td class="num">54,661<br><span class="sub">$0.0164</span></td><td class="num">110,928<br><span class="sub">$0.0333</span></td><td class="num good">67%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Hadoop</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">384,948 chars</span></td><td class="model">openai</td><td class="num">128,687<br><span class="sub">$0.32</span></td><td class="num">98,341<br><span class="sub">$0.25</span></td><td class="num">30,346<br><span class="sub">$0.0759</span></td><td class="num good">23.6%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">140,257<br><span class="sub">$0.70</span></td><td class="num">114,744<br><span class="sub">$0.57</span></td><td class="num">25,513<br><span class="sub">$0.13</span></td><td class="num good">18.2%</td></tr>
+<tr><td class="model">qwen</td><td class="num">172,379<br><span class="sub">$0.0517</span></td><td class="num">101,421<br><span class="sub">$0.0304</span></td><td class="num">70,958<br><span class="sub">$0.0213</span></td><td class="num good">41.2%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">OpenStack</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">595,119 chars</span></td><td class="model">openai</td><td class="num">298,337<br><span class="sub">$0.75</span></td><td class="num">89,565<br><span class="sub">$0.22</span></td><td class="num">208,772<br><span class="sub">$0.52</span></td><td class="num good">70%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">298,108<br><span class="sub">$1.49</span></td><td class="num">96,278<br><span class="sub">$0.48</span></td><td class="num">201,830<br><span class="sub">$1.01</span></td><td class="num good">67.7%</td></tr>
+<tr><td class="model">qwen</td><td class="num">397,482<br><span class="sub">$0.12</span></td><td class="num">89,542<br><span class="sub">$0.0269</span></td><td class="num">307,940<br><span class="sub">$0.0924</span></td><td class="num good">77.5%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Thunderbird</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">325,192 chars</span></td><td class="model">openai</td><td class="num">130,560<br><span class="sub">$0.33</span></td><td class="num">89,433<br><span class="sub">$0.22</span></td><td class="num">41,127<br><span class="sub">$0.10</span></td><td class="num good">31.5%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">130,588<br><span class="sub">$0.65</span></td><td class="num">95,810<br><span class="sub">$0.48</span></td><td class="num">34,778<br><span class="sub">$0.17</span></td><td class="num good">26.6%</td></tr>
+<tr><td class="model">qwen</td><td class="num">177,633<br><span class="sub">$0.0533</span></td><td class="num">89,699<br><span class="sub">$0.0269</span></td><td class="num">87,934<br><span class="sub">$0.0264</span></td><td class="num good">49.5%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Windows</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">285,433 chars</span></td><td class="model">openai</td><td class="num">86,625<br><span class="sub">$0.22</span></td><td class="num">56,142<br><span class="sub">$0.14</span></td><td class="num">30,483<br><span class="sub">$0.0762</span></td><td class="num good">35.2%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">88,676<br><span class="sub">$0.44</span></td><td class="num">63,996<br><span class="sub">$0.32</span></td><td class="num">24,680<br><span class="sub">$0.12</span></td><td class="num good">27.8%</td></tr>
+<tr><td class="model">qwen</td><td class="num">118,907<br><span class="sub">$0.0357</span></td><td class="num">57,747<br><span class="sub">$0.0173</span></td><td class="num">61,160<br><span class="sub">$0.0183</span></td><td class="num good">51.4%</td></tr>
+    </tbody>
+  </table>
+</section>
+<section id="page-moderate" class="page">
+  <h2>Unordered <span class="hint">duplicates merged globally</span></h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Dataset</th>
+        <th>Size</th>
+        <th>Tokenizer</th>
+        <th>Raw Tokens</th>
+        <th>Compressed Tokens</th>
+        <th>Tokens Saved</th>
+        <th>% Reduced</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr><td rowspan="3" class="grp dataset">BGL</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">317,150 chars</span></td><td class="model">openai</td><td class="num">141,671<br><span class="sub">$0.35</span></td><td class="num">33,229<br><span class="sub">$0.0831</span></td><td class="num">108,442<br><span class="sub">$0.27</span></td><td class="num good">76.5%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">154,322<br><span class="sub">$0.77</span></td><td class="num">34,956<br><span class="sub">$0.17</span></td><td class="num">119,366<br><span class="sub">$0.60</span></td><td class="num good">77.3%</td></tr>
+<tr><td class="model">qwen</td><td class="num">204,212<br><span class="sub">$0.0613</span></td><td class="num">33,612<br><span class="sub">$0.0101</span></td><td class="num">170,600<br><span class="sub">$0.0512</span></td><td class="num good">83.5%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">HDFS</td><td rowspan="3" class="num">2,001 lines<br><span class="sub">287,848 chars</span></td><td class="model">openai</td><td class="num">96,898<br><span class="sub">$0.24</span></td><td class="num">1,920<br><span class="sub">$0.0048</span></td><td class="num">94,978<br><span class="sub">$0.24</span></td><td class="num good">98%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">100,909<br><span class="sub">$0.50</span></td><td class="num">2,011<br><span class="sub">$0.0101</span></td><td class="num">98,898<br><span class="sub">$0.49</span></td><td class="num good">98%</td></tr>
+<tr><td class="model">qwen</td><td class="num">165,589<br><span class="sub">$0.0497</span></td><td class="num">1,953<br><span class="sub">$0.0006</span></td><td class="num">163,636<br><span class="sub">$0.0491</span></td><td class="num good">98.8%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Hadoop</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">384,948 chars</span></td><td class="model">openai</td><td class="num">128,687<br><span class="sub">$0.32</span></td><td class="num">7,035<br><span class="sub">$0.0176</span></td><td class="num">121,652<br><span class="sub">$0.30</span></td><td class="num good">94.5%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">140,257<br><span class="sub">$0.70</span></td><td class="num">8,335<br><span class="sub">$0.0417</span></td><td class="num">131,922<br><span class="sub">$0.66</span></td><td class="num good">94.1%</td></tr>
+<tr><td class="model">qwen</td><td class="num">172,379<br><span class="sub">$0.0517</span></td><td class="num">7,100<br><span class="sub">$0.0021</span></td><td class="num">165,279<br><span class="sub">$0.0496</span></td><td class="num good">95.9%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">OpenStack</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">595,119 chars</span></td><td class="model">openai</td><td class="num">298,337<br><span class="sub">$0.75</span></td><td class="num">2,575<br><span class="sub">$0.0064</span></td><td class="num">295,762<br><span class="sub">$0.74</span></td><td class="num good">99.1%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">298,108<br><span class="sub">$1.49</span></td><td class="num">2,758<br><span class="sub">$0.0138</span></td><td class="num">295,350<br><span class="sub">$1.48</span></td><td class="num good">99.1%</td></tr>
+<tr><td class="model">qwen</td><td class="num">397,482<br><span class="sub">$0.12</span></td><td class="num">2,613<br><span class="sub">$0.0008</span></td><td class="num">394,869<br><span class="sub">$0.12</span></td><td class="num good">99.3%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Thunderbird</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">325,192 chars</span></td><td class="model">openai</td><td class="num">130,560<br><span class="sub">$0.33</span></td><td class="num">14,935<br><span class="sub">$0.0373</span></td><td class="num">115,625<br><span class="sub">$0.29</span></td><td class="num good">88.6%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">130,588<br><span class="sub">$0.65</span></td><td class="num">15,547<br><span class="sub">$0.0777</span></td><td class="num">115,041<br><span class="sub">$0.58</span></td><td class="num good">88.1%</td></tr>
+<tr><td class="model">qwen</td><td class="num">177,633<br><span class="sub">$0.0533</span></td><td class="num">14,840<br><span class="sub">$0.0045</span></td><td class="num">162,793<br><span class="sub">$0.0488</span></td><td class="num good">91.6%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Windows</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">285,433 chars</span></td><td class="model">openai</td><td class="num">86,625<br><span class="sub">$0.22</span></td><td class="num">1,853<br><span class="sub">$0.0046</span></td><td class="num">84,772<br><span class="sub">$0.21</span></td><td class="num good">97.9%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">88,676<br><span class="sub">$0.44</span></td><td class="num">2,058<br><span class="sub">$0.0103</span></td><td class="num">86,618<br><span class="sub">$0.43</span></td><td class="num good">97.7%</td></tr>
+<tr><td class="model">qwen</td><td class="num">118,907<br><span class="sub">$0.0357</span></td><td class="num">1,902<br><span class="sub">$0.0006</span></td><td class="num">117,005<br><span class="sub">$0.0351</span></td><td class="num good">98.4%</td></tr>
+    </tbody>
+  </table>
+  <h2>Ordered <span class="hint">original line order kept; only consecutive runs collapsed</span></h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Dataset</th>
+        <th>Size</th>
+        <th>Tokenizer</th>
+        <th>Raw Tokens</th>
+        <th>Compressed Tokens</th>
+        <th>Tokens Saved</th>
+        <th>% Reduced</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr><td rowspan="3" class="grp dataset">BGL</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">317,150 chars</span></td><td class="model">openai</td><td class="num">141,671<br><span class="sub">$0.35</span></td><td class="num">103,885<br><span class="sub">$0.26</span></td><td class="num">37,786<br><span class="sub">$0.0945</span></td><td class="num good">26.7%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">154,322<br><span class="sub">$0.77</span></td><td class="num">108,926<br><span class="sub">$0.54</span></td><td class="num">45,396<br><span class="sub">$0.23</span></td><td class="num good">29.4%</td></tr>
+<tr><td class="model">qwen</td><td class="num">204,212<br><span class="sub">$0.0613</span></td><td class="num">105,214<br><span class="sub">$0.0316</span></td><td class="num">98,998<br><span class="sub">$0.0297</span></td><td class="num good">48.5%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">HDFS</td><td rowspan="3" class="num">2,001 lines<br><span class="sub">287,848 chars</span></td><td class="model">openai</td><td class="num">96,898<br><span class="sub">$0.24</span></td><td class="num">54,447<br><span class="sub">$0.14</span></td><td class="num">42,451<br><span class="sub">$0.11</span></td><td class="num good">43.8%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">100,909<br><span class="sub">$0.50</span></td><td class="num">59,558<br><span class="sub">$0.30</span></td><td class="num">41,351<br><span class="sub">$0.21</span></td><td class="num good">41%</td></tr>
+<tr><td class="model">qwen</td><td class="num">165,589<br><span class="sub">$0.0497</span></td><td class="num">54,661<br><span class="sub">$0.0164</span></td><td class="num">110,928<br><span class="sub">$0.0333</span></td><td class="num good">67%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Hadoop</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">384,948 chars</span></td><td class="model">openai</td><td class="num">128,687<br><span class="sub">$0.32</span></td><td class="num">98,015<br><span class="sub">$0.25</span></td><td class="num">30,672<br><span class="sub">$0.0767</span></td><td class="num good">23.8%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">140,257<br><span class="sub">$0.70</span></td><td class="num">114,403<br><span class="sub">$0.57</span></td><td class="num">25,854<br><span class="sub">$0.13</span></td><td class="num good">18.4%</td></tr>
+<tr><td class="model">qwen</td><td class="num">172,379<br><span class="sub">$0.0517</span></td><td class="num">101,095<br><span class="sub">$0.0303</span></td><td class="num">71,284<br><span class="sub">$0.0214</span></td><td class="num good">41.4%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">OpenStack</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">595,119 chars</span></td><td class="model">openai</td><td class="num">298,337<br><span class="sub">$0.75</span></td><td class="num">81,207<br><span class="sub">$0.20</span></td><td class="num">217,130<br><span class="sub">$0.54</span></td><td class="num good">72.8%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">298,108<br><span class="sub">$1.49</span></td><td class="num">87,417<br><span class="sub">$0.44</span></td><td class="num">210,691<br><span class="sub">$1.05</span></td><td class="num good">70.7%</td></tr>
+<tr><td class="model">qwen</td><td class="num">397,482<br><span class="sub">$0.12</span></td><td class="num">81,184<br><span class="sub">$0.0244</span></td><td class="num">316,298<br><span class="sub">$0.0949</span></td><td class="num good">79.6%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Thunderbird</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">325,192 chars</span></td><td class="model">openai</td><td class="num">130,560<br><span class="sub">$0.33</span></td><td class="num">89,172<br><span class="sub">$0.22</span></td><td class="num">41,388<br><span class="sub">$0.10</span></td><td class="num good">31.7%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">130,588<br><span class="sub">$0.65</span></td><td class="num">95,540<br><span class="sub">$0.48</span></td><td class="num">35,048<br><span class="sub">$0.18</span></td><td class="num good">26.8%</td></tr>
+<tr><td class="model">qwen</td><td class="num">177,633<br><span class="sub">$0.0533</span></td><td class="num">89,440<br><span class="sub">$0.0268</span></td><td class="num">88,193<br><span class="sub">$0.0265</span></td><td class="num good">49.6%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Windows</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">285,433 chars</span></td><td class="model">openai</td><td class="num">86,625<br><span class="sub">$0.22</span></td><td class="num">55,896<br><span class="sub">$0.14</span></td><td class="num">30,729<br><span class="sub">$0.0768</span></td><td class="num good">35.5%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">88,676<br><span class="sub">$0.44</span></td><td class="num">63,746<br><span class="sub">$0.32</span></td><td class="num">24,930<br><span class="sub">$0.12</span></td><td class="num good">28.1%</td></tr>
+<tr><td class="model">qwen</td><td class="num">118,907<br><span class="sub">$0.0357</span></td><td class="num">57,509<br><span class="sub">$0.0173</span></td><td class="num">61,398<br><span class="sub">$0.0184</span></td><td class="num good">51.6%</td></tr>
+    </tbody>
+  </table>
+</section>
+<section id="page-aggressive" class="page">
+  <h2>Unordered <span class="hint">duplicates merged globally</span></h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Dataset</th>
+        <th>Size</th>
+        <th>Tokenizer</th>
+        <th>Raw Tokens</th>
+        <th>Compressed Tokens</th>
+        <th>Tokens Saved</th>
+        <th>% Reduced</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr><td rowspan="3" class="grp dataset">BGL</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">317,150 chars</span></td><td class="model">openai</td><td class="num">141,671<br><span class="sub">$0.35</span></td><td class="num">33,262<br><span class="sub">$0.0832</span></td><td class="num">108,409<br><span class="sub">$0.27</span></td><td class="num good">76.5%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">154,322<br><span class="sub">$0.77</span></td><td class="num">35,015<br><span class="sub">$0.18</span></td><td class="num">119,307<br><span class="sub">$0.60</span></td><td class="num good">77.3%</td></tr>
+<tr><td class="model">qwen</td><td class="num">204,212<br><span class="sub">$0.0613</span></td><td class="num">33,672<br><span class="sub">$0.0101</span></td><td class="num">170,540<br><span class="sub">$0.0512</span></td><td class="num good">83.5%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">HDFS</td><td rowspan="3" class="num">2,001 lines<br><span class="sub">287,848 chars</span></td><td class="model">openai</td><td class="num">96,898<br><span class="sub">$0.24</span></td><td class="num">1,898<br><span class="sub">$0.0047</span></td><td class="num">95,000<br><span class="sub">$0.24</span></td><td class="num good">98%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">100,909<br><span class="sub">$0.50</span></td><td class="num">1,979<br><span class="sub">$0.0099</span></td><td class="num">98,930<br><span class="sub">$0.49</span></td><td class="num good">98%</td></tr>
+<tr><td class="model">qwen</td><td class="num">165,589<br><span class="sub">$0.0497</span></td><td class="num">1,931<br><span class="sub">$0.0006</span></td><td class="num">163,658<br><span class="sub">$0.0491</span></td><td class="num good">98.8%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Hadoop</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">384,948 chars</span></td><td class="model">openai</td><td class="num">128,687<br><span class="sub">$0.32</span></td><td class="num">6,735<br><span class="sub">$0.0168</span></td><td class="num">121,952<br><span class="sub">$0.30</span></td><td class="num good">94.8%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">140,257<br><span class="sub">$0.70</span></td><td class="num">7,809<br><span class="sub">$0.0390</span></td><td class="num">132,448<br><span class="sub">$0.66</span></td><td class="num good">94.4%</td></tr>
+<tr><td class="model">qwen</td><td class="num">172,379<br><span class="sub">$0.0517</span></td><td class="num">6,735<br><span class="sub">$0.0020</span></td><td class="num">165,644<br><span class="sub">$0.0497</span></td><td class="num good">96.1%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">OpenStack</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">595,119 chars</span></td><td class="model">openai</td><td class="num">298,337<br><span class="sub">$0.75</span></td><td class="num">2,583<br><span class="sub">$0.0065</span></td><td class="num">295,754<br><span class="sub">$0.74</span></td><td class="num good">99.1%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">298,108<br><span class="sub">$1.49</span></td><td class="num">2,763<br><span class="sub">$0.0138</span></td><td class="num">295,345<br><span class="sub">$1.48</span></td><td class="num good">99.1%</td></tr>
+<tr><td class="model">qwen</td><td class="num">397,482<br><span class="sub">$0.12</span></td><td class="num">2,621<br><span class="sub">$0.0008</span></td><td class="num">394,861<br><span class="sub">$0.12</span></td><td class="num good">99.3%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Thunderbird</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">325,192 chars</span></td><td class="model">openai</td><td class="num">130,560<br><span class="sub">$0.33</span></td><td class="num">14,962<br><span class="sub">$0.0374</span></td><td class="num">115,598<br><span class="sub">$0.29</span></td><td class="num good">88.5%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">130,588<br><span class="sub">$0.65</span></td><td class="num">15,572<br><span class="sub">$0.0779</span></td><td class="num">115,016<br><span class="sub">$0.58</span></td><td class="num good">88.1%</td></tr>
+<tr><td class="model">qwen</td><td class="num">177,633<br><span class="sub">$0.0533</span></td><td class="num">14,868<br><span class="sub">$0.0045</span></td><td class="num">162,765<br><span class="sub">$0.0488</span></td><td class="num good">91.6%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Windows</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">285,433 chars</span></td><td class="model">openai</td><td class="num">86,625<br><span class="sub">$0.22</span></td><td class="num">1,862<br><span class="sub">$0.0047</span></td><td class="num">84,763<br><span class="sub">$0.21</span></td><td class="num good">97.9%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">88,676<br><span class="sub">$0.44</span></td><td class="num">2,030<br><span class="sub">$0.0102</span></td><td class="num">86,646<br><span class="sub">$0.43</span></td><td class="num good">97.7%</td></tr>
+<tr><td class="model">qwen</td><td class="num">118,907<br><span class="sub">$0.0357</span></td><td class="num">1,892<br><span class="sub">$0.0006</span></td><td class="num">117,015<br><span class="sub">$0.0351</span></td><td class="num good">98.4%</td></tr>
+    </tbody>
+  </table>
+  <h2>Ordered <span class="hint">original line order kept; only consecutive runs collapsed</span></h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Dataset</th>
+        <th>Size</th>
+        <th>Tokenizer</th>
+        <th>Raw Tokens</th>
+        <th>Compressed Tokens</th>
+        <th>Tokens Saved</th>
+        <th>% Reduced</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr><td rowspan="3" class="grp dataset">BGL</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">317,150 chars</span></td><td class="model">openai</td><td class="num">141,671<br><span class="sub">$0.35</span></td><td class="num">104,065<br><span class="sub">$0.26</span></td><td class="num">37,606<br><span class="sub">$0.0940</span></td><td class="num good">26.5%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">154,322<br><span class="sub">$0.77</span></td><td class="num">109,287<br><span class="sub">$0.55</span></td><td class="num">45,035<br><span class="sub">$0.23</span></td><td class="num good">29.2%</td></tr>
+<tr><td class="model">qwen</td><td class="num">204,212<br><span class="sub">$0.0613</span></td><td class="num">105,577<br><span class="sub">$0.0317</span></td><td class="num">98,635<br><span class="sub">$0.0296</span></td><td class="num good">48.3%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">HDFS</td><td rowspan="3" class="num">2,001 lines<br><span class="sub">287,848 chars</span></td><td class="model">openai</td><td class="num">96,898<br><span class="sub">$0.24</span></td><td class="num">53,486<br><span class="sub">$0.13</span></td><td class="num">43,412<br><span class="sub">$0.11</span></td><td class="num good">44.8%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">100,909<br><span class="sub">$0.50</span></td><td class="num">57,897<br><span class="sub">$0.29</span></td><td class="num">43,012<br><span class="sub">$0.22</span></td><td class="num good">42.6%</td></tr>
+<tr><td class="model">qwen</td><td class="num">165,589<br><span class="sub">$0.0497</span></td><td class="num">53,700<br><span class="sub">$0.0161</span></td><td class="num">111,889<br><span class="sub">$0.0336</span></td><td class="num good">67.6%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Hadoop</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">384,948 chars</span></td><td class="model">openai</td><td class="num">128,687<br><span class="sub">$0.32</span></td><td class="num">94,314<br><span class="sub">$0.24</span></td><td class="num">34,373<br><span class="sub">$0.0859</span></td><td class="num good">26.7%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">140,257<br><span class="sub">$0.70</span></td><td class="num">107,821<br><span class="sub">$0.54</span></td><td class="num">32,436<br><span class="sub">$0.16</span></td><td class="num good">23.1%</td></tr>
+<tr><td class="model">qwen</td><td class="num">172,379<br><span class="sub">$0.0517</span></td><td class="num">94,226<br><span class="sub">$0.0283</span></td><td class="num">78,153<br><span class="sub">$0.0234</span></td><td class="num good">45.3%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">OpenStack</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">595,119 chars</span></td><td class="model">openai</td><td class="num">298,337<br><span class="sub">$0.75</span></td><td class="num">81,305<br><span class="sub">$0.20</span></td><td class="num">217,032<br><span class="sub">$0.54</span></td><td class="num good">72.7%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">298,108<br><span class="sub">$1.49</span></td><td class="num">87,466<br><span class="sub">$0.44</span></td><td class="num">210,642<br><span class="sub">$1.05</span></td><td class="num good">70.7%</td></tr>
+<tr><td class="model">qwen</td><td class="num">397,482<br><span class="sub">$0.12</span></td><td class="num">81,282<br><span class="sub">$0.0244</span></td><td class="num">316,200<br><span class="sub">$0.0949</span></td><td class="num good">79.6%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Thunderbird</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">325,192 chars</span></td><td class="model">openai</td><td class="num">130,560<br><span class="sub">$0.33</span></td><td class="num">90,253<br><span class="sub">$0.23</span></td><td class="num">40,307<br><span class="sub">$0.10</span></td><td class="num good">30.9%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">130,588<br><span class="sub">$0.65</span></td><td class="num">96,618<br><span class="sub">$0.48</span></td><td class="num">33,970<br><span class="sub">$0.17</span></td><td class="num good">26%</td></tr>
+<tr><td class="model">qwen</td><td class="num">177,633<br><span class="sub">$0.0533</span></td><td class="num">90,522<br><span class="sub">$0.0272</span></td><td class="num">87,111<br><span class="sub">$0.0261</span></td><td class="num good">49%</td></tr>
+<tr class="spacer"><td colspan="7"></td></tr>
+<tr><td rowspan="3" class="grp dataset">Windows</td><td rowspan="3" class="num">2,000 lines<br><span class="sub">285,433 chars</span></td><td class="model">openai</td><td class="num">86,625<br><span class="sub">$0.22</span></td><td class="num">58,051<br><span class="sub">$0.15</span></td><td class="num">28,574<br><span class="sub">$0.0714</span></td><td class="num good">33%</td></tr>
+<tr><td class="model">anthropic</td><td class="num">88,676<br><span class="sub">$0.44</span></td><td class="num">64,180<br><span class="sub">$0.32</span></td><td class="num">24,496<br><span class="sub">$0.12</span></td><td class="num good">27.6%</td></tr>
+<tr><td class="model">qwen</td><td class="num">118,907<br><span class="sub">$0.0357</span></td><td class="num">58,546<br><span class="sub">$0.0176</span></td><td class="num">60,361<br><span class="sub">$0.0181</span></td><td class="num good">50.8%</td></tr>
+    </tbody>
+  </table>
+</section>
+  <p class="foot">
+    Tokenizers in this run: openai, anthropic, qwen.
+  </p>
+  <script>
+    document.querySelectorAll('.tab').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        document.querySelectorAll('.tab').forEach(function (b) { b.classList.remove('active'); });
+        document.querySelectorAll('.page').forEach(function (p) { p.classList.remove('show'); });
+        btn.classList.add('active');
+        document.getElementById(btn.dataset.target).classList.add('show');
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+# Hadoop_2k.log | level=aggressive
+# 2000 lines -> 135 groups (ratio 0.068)
+
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.MRAppMaster: Created MRAppMaster for application appattempt_<NUM>_<NUM>_<NUM>
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.MRAppMaster: Executing with tokens:
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.MRAppMaster: Kind: YARN_AM_RM_TOKEN, Service: , Ident: (<ID> { application_id { id: <NUM> cluster_timestamp: <NUM> } attemptId: <NUM> } keyId: -<NUM>)
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.MRAppMaster: Using mapred <ID>.
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.MRAppMaster: <ID> set in config null
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.MRAppMaster: <ID> is org.apache.hadoop.mapreduce.lib.output.<ID>
+<TS>,<NUM> INFO [main] org.apache.hadoop.yarn.event.<ID>: Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.<ID>
+3x <TS>,<NUM> INFO [main] org.apache.hadoop.yarn.event.<ID>: Registering class org.apache.hadoop.mapreduce.v<NUM>.app.job.event.<ID> for class org.apache.hadoop.mapreduce.v<NUM>.app.MRAppMaster$<ID>
+<TS>,<NUM> INFO [main] org.apache.hadoop.yarn.event.<ID>: Registering class org.apache.hadoop.mapreduce.v<NUM>.app.commit.<ID> for class org.apache.hadoop.mapreduce.v<NUM>.app.commit.<ID>
+<TS>,<NUM> INFO [main] org.apache.hadoop.yarn.event.<ID>: Registering class org.apache.hadoop.mapreduce.v<NUM>.app.speculate.Speculator$EventType for class org.apache.hadoop.mapreduce.v<NUM>.app.MRAppMaster$<ID>
+<TS>,<NUM> INFO [main] org.apache.hadoop.yarn.event.<ID>: Registering class org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>$EventType for class org.apache.hadoop.mapreduce.v<NUM>.app.MRAppMaster$<ID>
+<TS>,<NUM> INFO [main] org.apache.hadoop.yarn.event.<ID>: Registering class org.apache.hadoop.mapreduce.v<NUM>.app.launcher.<ID>$EventType for class org.apache.hadoop.mapreduce.v<NUM>.app.MRAppMaster$<ID>
+3x <TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.jobhistory.<ID>: Default file system [hdfs://msra-sa-<NUM>:<NUM>]
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.jobhistory.<ID>: Emitting job history data to the timeline server is not enabled
+<TS>,<NUM> INFO [main] org.apache.hadoop.yarn.event.<ID>: Registering class org.apache.hadoop.mapreduce.v<NUM>.app.job.event.<ID>$Type for class org.apache.hadoop.mapreduce.v<NUM>.app.MRAppMaster$<ID>
+<TS>,<NUM> INFO [main] org.apache.hadoop.metrics<NUM>.impl.<ID>: loaded properties from hadoop-metrics<NUM>.properties
+<TS>,<NUM> INFO [main] org.apache.hadoop.metrics<NUM>.impl.<ID>: Scheduled snapshot period at <NUM> second(s).
+<TS>,<NUM> INFO [main] org.apache.hadoop.metrics<NUM>.impl.<ID>: MRAppMaster metrics system started
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.JobImpl: Adding job token for job_<NUM>_<NUM> to <ID>
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.JobImpl: Not uberizing job_<NUM>_<NUM> because: not enabled; too many maps; too much input;
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.JobImpl: Input size for job job_<NUM>_<NUM> = <NUM>. Number of splits = <NUM>
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.JobImpl: Number of reduces for job job_<NUM>_<NUM> = <NUM>
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.JobImpl: job_<NUM>_<NUM>Job <ID> from NEW to INITED
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.MRAppMaster: MRAppMaster launching normal, non-uberized, multi-container job job_<NUM>_<NUM>.
+2x <TS>,<NUM> INFO [main] org.apache.hadoop.ipc.<ID>: Using callQueue class java.util.concurrent.<ID>
+2x <TS>,<NUM> INFO [Socket Reader #<NUM> for port <NUM>] org.apache.hadoop.ipc.Server: Starting Socket Reader #<NUM> for port <NUM>
+<TS>,<NUM> INFO [main] org.apache.hadoop.yarn.factories.impl.pb.<ID>: Adding protocol org.apache.hadoop.mapreduce.v<NUM>.api.<ID> to the server
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.client.<ID>: <ID> <ID> at MININT-FNANLI<NUM>.fareast.corp.microsoft.com/<IP>
+2x <TS>,<NUM> INFO [IPC Server Responder] org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2x <TS>,<NUM> INFO [IPC Server listener on <NUM>] org.apache.hadoop.ipc.Server: IPC Server listener on <NUM>: starting
+<TS>,<NUM> INFO [main] org.mortbay.log: Logging to org.slf<NUM>j.impl.Log<NUM><ID>(org.mortbay.log) via org.mortbay.log.Slf<NUM>jLog
+<TS>,<NUM> INFO [main] org.apache.hadoop.http.<ID>: Http request log for http.requests.mapreduce is not defined
+<TS>,<NUM> INFO [main] org.apache.hadoop.http.HttpServer<NUM>: Added global filter <STR> (class=<VAL>
+<TS>,<NUM> INFO [main] org.apache.hadoop.http.HttpServer<NUM>: Added filter AM_PROXY_FILTER (class=<VAL> to context mapreduce
+<TS>,<NUM> INFO [main] org.apache.hadoop.http.HttpServer<NUM>: Added filter AM_PROXY_FILTER (class=<VAL> to context static
+<TS>,<NUM> INFO [main] org.apache.hadoop.http.HttpServer<NUM>: adding path spec: /mapreduce/*
+<TS>,<NUM> INFO [main] org.apache.hadoop.http.HttpServer<NUM>: adding path spec: /ws/*
+<TS>,<NUM> INFO [main] org.apache.hadoop.http.HttpServer<NUM>: Jetty bound to port <NUM>
+<TS>,<NUM> INFO [main] org.mortbay.log: jetty-<NUM>.<NUM>
+<TS>,<NUM> INFO [main] org.mortbay.log: Extract jar:file:/D:<PATH>!<PATH> to <PATH>
+<TS>,<NUM> INFO [main] org.mortbay.log: Started <EMAIL>
+<TS>,<NUM> INFO [main] org.apache.hadoop.yarn.webapp.WebApps: Web app /mapreduce started at <NUM>
+<TS>,<NUM> INFO [main] org.apache.hadoop.yarn.webapp.WebApps: Registered webapp guice modules
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.speculate.<ID>: JOB_CREATE job_<NUM>_<NUM>
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: <ID>:true
+2x <TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: <ID> is <NUM>
+<TS>,<NUM> INFO [main] org.apache.hadoop.yarn.client.RMProxy: Connecting to <ID> at msra-sa-<NUM>/<IP>
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: <ID>: <memory:<NUM>, vCores:<NUM>>
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: queue: default
+<TS>,<NUM> INFO [main] org.apache.hadoop.mapreduce.v<NUM>.app.launcher.<ID>: Upper limit on the thread pool size is <NUM>
+<TS>,<NUM> INFO [main] org.apache.hadoop.yarn.client.api.impl.<ID>: yarn.client.max-cached-<ID>-proxies : <NUM>
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.JobImpl: job_<NUM>_<NUM>Job <ID> from INITED to SETUP
+<TS>,<NUM> INFO [<ID> Processor #<NUM>] org.apache.hadoop.mapreduce.v<NUM>.app.commit.<ID>: Processing the event EventType: JOB_SETUP
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.JobImpl: job_<NUM>_<NUM>Job <ID> from SETUP to RUNNING
+33x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.yarn.util.<ID>: Resolved MSRA-SA-<NUM>.fareast.corp.microsoft.com to /default-rack
+10x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.TaskImpl: task_<NUM>_<NUM>_m_<NUM> Task <ID> from NEW to SCHEDULED
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.TaskImpl: task_<NUM>_<NUM>_r_<NUM> Task <ID> from NEW to SCHEDULED
+13x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: attempt_<NUM>_<NUM>_m_<NUM>_<NUM> TaskAttempt <ID> from NEW to UNASSIGNED
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: attempt_<NUM>_<NUM>_r_<NUM>_<NUM> TaskAttempt <ID> from NEW to UNASSIGNED
+2x <TS>,<NUM> INFO [Thread-<NUM>] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: <ID>:<memory:<NUM>, vCores:<NUM>>
+<TS>,<NUM> INFO [<ID>] org.apache.hadoop.mapreduce.jobhistory.<ID>: Event Writer setup for JobId: job_<NUM>_<NUM>, File: hdfs://msra-sa-<NUM>:<NUM><PATH>
+5x <TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: Before Scheduling: PendingReds:<NUM> <ID>:<NUM> <ID>:<NUM> <ID>:<NUM> <ID>:<NUM> <ID>:<NUM> <ID>:<NUM> ContAlloc:<NUM> ContRel:<NUM> HostLocal:<NUM> RackLocal:<NUM>
+12x <TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: <ID>() for application_<NUM>_<NUM>: ask=<VAL> release= <NUM> <ID>=<VAL> <ID>=<VAL> <ID>=<VAL> vCores:-<NUM>> knownNMs=<VAL>
+131x <TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: <ID> schedule, headroom=<VAL> vCores:-<NUM>>
+130x <TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: Reduce slow start threshold not met. <ID> <NUM>
+10x <TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: Got allocated containers <NUM>
+<TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.yarn.util.<ID>: Resolved <NUM>DN<NUM>IQ.fareast.corp.microsoft.com to /default-rack
+10x <TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: Assigned container container_<NUM>_<NUM>_<NUM>_<NUM> to attempt_<NUM>_<NUM>_m_<NUM>_<NUM>
+12x <TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: After Scheduling: PendingReds:<NUM> <ID>:<NUM> <ID>:<NUM> <ID>:<NUM> <ID>:<NUM> <ID>:<NUM> <ID>:<NUM> ContAlloc:<NUM> ContRel:<NUM> HostLocal:<NUM> RackLocal:<NUM>
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.yarn.util.<ID>: Resolved <NUM>DN<NUM>IQ.fareast.corp.microsoft.com to /default-rack
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: The job-jar file on the remote FS is hdfs://msra-sa-<NUM>:<NUM><PATH>
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: The job-conf file on the remote FS is <PATH>
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: Adding #<NUM> tokens and #<NUM> secret keys for NM use for launching container
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: Size of containertokens_dob is <NUM>
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: Putting shuffle token in serviceData
+10x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: attempt_<NUM>_<NUM>_m_<NUM>_<NUM> TaskAttempt <ID> from UNASSIGNED to ASSIGNED
+10x <TS>,<NUM> INFO [<ID> #<NUM>] org.apache.hadoop.mapreduce.v<NUM>.app.launcher.<ID>: Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_<NUM>_<NUM>_<NUM>_<NUM> taskAttempt attempt_<NUM>_<NUM>_m_<NUM>_<NUM>
+10x <TS>,<NUM> INFO [<ID> #<NUM>] org.apache.hadoop.mapreduce.v<NUM>.app.launcher.<ID>: Launching attempt_<NUM>_<NUM>_m_<NUM>_<NUM>
+<TS>,<NUM> INFO [<ID> #<NUM>] org.apache.hadoop.yarn.client.api.impl.<ID>: Opening proxy : <NUM>DN<NUM>IQ.fareast.corp.microsoft.com:<NUM>
+10x <TS>,<NUM> INFO [<ID> #<NUM>] org.apache.hadoop.mapreduce.v<NUM>.app.launcher.<ID>: Shuffle port returned by <ID> for attempt_<NUM>_<NUM>_m_<NUM>_<NUM> : <NUM>
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: TaskAttempt: [attempt_<NUM>_<NUM>_m_<NUM>_<NUM>] using containerId: [container_<NUM>_<NUM>_<NUM>_<NUM> on NM: [<NUM>DN<NUM>IQ.fareast.corp.microsoft.com:<NUM>]
+10x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: attempt_<NUM>_<NUM>_m_<NUM>_<NUM> TaskAttempt <ID> from ASSIGNED to RUNNING
+10x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.speculate.<ID>: ATTEMPT_START task_<NUM>_<NUM>_m_<NUM>
+10x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.TaskImpl: task_<NUM>_<NUM>_m_<NUM> Task <ID> from SCHEDULED to RUNNING
+2x <TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.yarn.util.<ID>: Resolved MININT-FNANLI<NUM>.fareast.corp.microsoft.com to /default-rack
+2x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.yarn.util.<ID>: Resolved MININT-FNANLI<NUM>.fareast.corp.microsoft.com to /default-rack
+4x <TS>,<NUM> INFO [<ID> #<NUM>] org.apache.hadoop.yarn.client.api.impl.<ID>: Opening proxy : MININT-FNANLI<NUM>.fareast.corp.microsoft.com:<NUM>
+2x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: TaskAttempt: [attempt_<NUM>_<NUM>_m_<NUM>_<NUM>] using containerId: [container_<NUM>_<NUM>_<NUM>_<NUM> on NM: [MININT-FNANLI<NUM>.fareast.corp.microsoft.com:<NUM>]
+10x <TS>,<NUM> INFO [Socket Reader #<NUM> for port <NUM>] <ID>.org.apache.hadoop.ipc.Server: Auth successful for job_<NUM>_<NUM> (auth:SIMPLE)
+10x <TS>,<NUM> INFO [IPC Server handler <NUM> on <NUM>] org.apache.hadoop.mapred.<ID>: JVM with ID : jvm_<NUM>_<NUM>_m_<NUM> asked for a task
+10x <TS>,<NUM> INFO [IPC Server handler <NUM> on <NUM>] org.apache.hadoop.mapred.<ID>: JVM with ID: jvm_<NUM>_<NUM>_m_<NUM> given task: attempt_<NUM>_<NUM>_m_<NUM>_<NUM>
+289x <TS>,<NUM> INFO [IPC Server handler <NUM> on <NUM>] org.apache.hadoop.mapred.<ID>: Progress of TaskAttempt attempt_<NUM>_<NUM>_m_<NUM>_<NUM> is : <NUM>
+8x <TS>,<NUM> INFO [<ID> #<NUM>] org.apache.hadoop.yarn.client.api.impl.<ID>: Opening proxy : MSRA-SA-<NUM>.fareast.corp.microsoft.com:<NUM>
+7x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: TaskAttempt: [attempt_<NUM>_<NUM>_m_<NUM>_<NUM>] using containerId: [container_<NUM>_<NUM>_<NUM>_<NUM> on NM: [MSRA-SA-<NUM>.fareast.corp.microsoft.com:<NUM>]
+<TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: Cannot assign container Container: [ContainerId: container_<NUM>_<NUM>_<NUM>_<NUM>, NodeId: MSRA-SA-<NUM>.fareast.corp.microsoft.com:<NUM>, <ID>: MSRA-SA-<NUM>.fareast.corp.microsoft.com:<NUM>, Resource: <memory:<NUM>, vCores:<NUM>>, Priority: <NUM>, Token: Token { kind: <ID>, service: <IP> }, ] for a map as either  container memory less than required <memory:<NUM>, vCores:<NUM>> or no pending map tasks - maps.isEmpty=<VAL>
+2x <TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: Received completed container container_<NUM>_<NUM>_<NUM>_<NUM>
+<TS>,<NUM> ERROR [<ID> Allocator] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: Container complete event for unknown container id container_<NUM>_<NUM>_<NUM>_<NUM>
+<TS>,<NUM> INFO [IPC Server handler <NUM> on <NUM>] org.apache.hadoop.mapred.<ID>: Done <ID> from attempt_<NUM>_<NUM>_m_<NUM>_<NUM>
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: attempt_<NUM>_<NUM>_m_<NUM>_<NUM> TaskAttempt <ID> from RUNNING to SUCCESS_CONTAINER_CLEANUP
+3x <TS>,<NUM> INFO [<ID> #<NUM>] org.apache.hadoop.mapreduce.v<NUM>.app.launcher.<ID>: Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_<NUM>_<NUM>_<NUM>_<NUM> taskAttempt attempt_<NUM>_<NUM>_m_<NUM>_<NUM>
+3x <TS>,<NUM> INFO [<ID> #<NUM>] org.apache.hadoop.mapreduce.v<NUM>.app.launcher.<ID>: KILLING attempt_<NUM>_<NUM>_m_<NUM>_<NUM>
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: attempt_<NUM>_<NUM>_m_<NUM>_<NUM> TaskAttempt <ID> from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.TaskImpl: Task succeeded with attempt attempt_<NUM>_<NUM>_m_<NUM>_<NUM>
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.TaskImpl: task_<NUM>_<NUM>_m_<NUM> Task <ID> from RUNNING to SUCCEEDED
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.JobImpl: Num completed Tasks: <NUM>
+<TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: Reduce slow start threshold reached. Scheduling reduces.
+<TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: All maps assigned. Ramping up all remaining reduces:<NUM>
+<TS>,<NUM> INFO [<ID> background processing] org.apache.hadoop.mapreduce.v<NUM>.app.speculate.<ID>: <ID>.<ID> -- we are speculating task_<NUM>_<NUM>_m_<NUM>
+<TS>,<NUM> INFO [<ID> background processing] org.apache.hadoop.mapreduce.v<NUM>.app.speculate.<ID>: We launched <NUM> <ID>.  Sleeping <NUM> <ID>.
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.TaskImpl: Scheduling a redundant attempt for task task_<NUM>_<NUM>_m_<NUM>
+<TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: Diagnostics report from attempt_<NUM>_<NUM>_m_<NUM>_<NUM>: Container killed by the <ID>.
+326x <TS>,<NUM> WARN [<ID>:msrabi@msra-sa-<NUM>:<NUM>] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-<NUM>/<IP> New: msra-sa-<NUM>:<NUM>
+326x <TS>,<NUM> WARN [<ID>:msrabi@msra-sa-<NUM>:<NUM>] org.apache.hadoop.hdfs.<ID>: Failed to renew lease for [DFSClient_NONMAPREDUCE_<NUM>_<NUM>] for <NUM> seconds.  Will retry shortly ...
+<TS>,<NUM> WARN [<ID> for block BP-<NUM>-<IP>-<NUM>:blk_<NUM>_<NUM>] org.apache.hadoop.hdfs.DFSClient: Slow <ID> read fields took <DUR> (threshold=<VAL> ack: seqno: -<NUM> status: SUCCESS status: ERROR <ID>: <NUM>, targets: [<IP>, <IP>]
+<TS>,<NUM> WARN [<ID> for block BP-<NUM>-<IP>-<NUM>:blk_<NUM>_<NUM>] org.apache.hadoop.hdfs.DFSClient: <ID> <ID> exception  for block BP-<NUM>-<IP>-<NUM>:blk_<NUM>_<NUM>
+<TS>,<NUM> WARN [<ID> for file <PATH> block BP-<NUM>-<IP>-<NUM>:blk_<NUM>_<NUM>] org.apache.hadoop.hdfs.DFSClient: Error Recovery for block BP-<NUM>-<IP>-<NUM>:blk_<NUM>_<NUM> in pipeline <IP>, <IP>: bad datanode <IP>
+<TS>,<NUM> WARN [<ID> for file <PATH> block BP-<NUM>-<IP>-<NUM>:blk_<NUM>_<NUM>] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-<NUM>/<IP> New: msra-sa-<NUM>:<NUM>
+<TS>,<NUM> WARN [<ID> for file <PATH> block BP-<NUM>-<IP>-<NUM>:blk_<NUM>_<NUM>] org.apache.hadoop.hdfs.DFSClient: <ID> Exception
+147x <TS>,<NUM> ERROR [<ID> Allocator] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: ERROR IN CONTACTING RM. 
+146x <TS>,<NUM> WARN [<ID> Allocator] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-<NUM>/<IP> New: msra-sa-<NUM>:<NUM>
+146x <TS>,<NUM> INFO [<ID> Allocator] org.apache.hadoop.ipc.Client: Retrying connect to server: msra-sa-<NUM>:<NUM>. Already tried <NUM> time(s); retry policy is <ID>(maxRetries=<VAL> sleepTime=<VAL> <ID>)
+2x <TS>,<NUM> FATAL [IPC Server handler <NUM> on <NUM>] org.apache.hadoop.mapred.<ID>: Task: attempt_<NUM>_<NUM>_m_<NUM>_<NUM> - exited : java.net.<ID>: No Route to Host from  MININT-FNANLI<NUM>/<IP> to msra-sa-<NUM>:<NUM> failed on socket timeout exception: java.net.<ID>: No route to host: no further information; For more details see:  <URL>
+2x <TS>,<NUM> INFO [IPC Server handler <NUM> on <NUM>] org.apache.hadoop.mapred.<ID>: Diagnostics report from attempt_<NUM>_<NUM>_m_<NUM>_<NUM>: Error: java.net.<ID>: No Route to Host from  MININT-FNANLI<NUM>/<IP> to msra-sa-<NUM>:<NUM> failed on socket timeout exception: java.net.<ID>: No route to host: no further information; For more details see:  <URL>
+2x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: Diagnostics report from attempt_<NUM>_<NUM>_m_<NUM>_<NUM>: Error: java.net.<ID>: No Route to Host from  MININT-FNANLI<NUM>/<IP> to msra-sa-<NUM>:<NUM> failed on socket timeout exception: java.net.<ID>: No route to host: no further information; For more details see:  <URL>
+2x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: attempt_<NUM>_<NUM>_m_<NUM>_<NUM> TaskAttempt <ID> from RUNNING to FAIL_CONTAINER_CLEANUP
+2x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: attempt_<NUM>_<NUM>_m_<NUM>_<NUM> TaskAttempt <ID> from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP
+2x <TS>,<NUM> INFO [<ID> Processor #<NUM>] org.apache.hadoop.mapreduce.v<NUM>.app.commit.<ID>: Processing the event EventType: TASK_ABORT
+2x <TS>,<NUM> WARN [<ID> Processor #<NUM>] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-<NUM>/<IP> New: msra-sa-<NUM>:<NUM>
+2x <TS>,<NUM> WARN [<ID> Processor #<NUM>] org.apache.hadoop.mapreduce.v<NUM>.app.commit.<ID>: Task cleanup failed for attempt attempt_<NUM>_<NUM>_m_<NUM>_<NUM>
+2x <TS>,<NUM> INFO [<ID> event handler] org.apache.hadoop.mapreduce.v<NUM>.app.job.impl.<ID>: attempt_<NUM>_<NUM>_m_<NUM>_<NUM> TaskAttempt <ID> from FAIL_TASK_CLEANUP to FAILED
+<TS>,<NUM> ERROR [<ID>] org.apache.hadoop.mapreduce.jobhistory.<ID>: Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.<ID>@<NUM>d
+<TS>,<NUM> ERROR [<ID>] org.apache.hadoop.yarn.<ID>: Thread Thread[<ID>,<NUM>,main] threw an Exception.
+2x <TS>,<NUM> INFO [Thread-<NUM>] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: <NUM> failures on node MININT-FNANLI<NUM>.fareast.corp.microsoft.com
+2x <TS>,<NUM> INFO [Thread-<NUM>] org.apache.hadoop.mapreduce.v<NUM>.app.rm.<ID>: Added attempt_<NUM>_<NUM>_m_<NUM>_<NUM> to list of failed maps
+<TS>,<NUM> WARN [<ID>:msrabi@msra-sa-<NUM>:<NUM>] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-<NUM>/<IP> New: msra-sa-<NUM>:<NUM>
